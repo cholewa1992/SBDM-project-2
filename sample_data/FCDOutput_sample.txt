@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 09/19/15 18:41:55 by SUMO Version 0.23.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="copenhagen.net.xml"/>
+        <route-files value="copenhagen.rou.xml,copenhagen.ped.rou.xml"/>
+    </input>
+
+    <output>
+        <fcd-output value="FCDOutput.txt"/>
+        <fcd-output.geo value="true"/>
+    </output>
+
+    <time>
+        <end value="7200"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<fcd-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/fcd_file.xsd">
+    <timestep time="0.00">
+        <vehicle id="0" x="12.537496" y="55.663419" angle="-18.966962" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="27409327_0" slope="0.000000"/>
+        <vehicle id="1" x="12.523000" y="55.704148" angle="5.126662" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="52178731#0_0" slope="0.000000"/>
+        <person id="0" x="12.534963" y="55.731728" angle="179.756510" speed="0.000000" pos="0.000000" edge="4352178#0" slope="0.000000"/>
+    </timestep>
+    <timestep time="1.00">
+        <vehicle id="0" x="12.537488" y="55.663405" angle="-18.966962" type="DEFAULT_VEHTYPE" speed="1.673759" pos="6.773759" lane="27409327_0" slope="0.000000"/>
+        <vehicle id="1" x="12.523005" y="55.704125" angle="5.126662" type="DEFAULT_VEHTYPE" speed="2.540877" pos="7.640877" lane="52178731#0_0" slope="0.000000"/>
+        <vehicle id="10" x="12.605069" y="55.723213" angle="-112.788525" type="DEFAULT_VEHTYPE" speed="0.000000" pos="0.200000" lane="8131026#3_0" slope="0.000000"/>
+        <vehicle id="12" x="12.507084" y="55.731957" angle="-146.411449" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="22999401#3_0" slope="0.000000"/>
+        <vehicle id="13" x="12.487360" y="55.684532" angle="-68.070165" type="DEFAULT_VEHTYPE" speed="0.000000" pos="0.220000" lane="-2860760#5_0" slope="0.000000"/>
+        <vehicle id="14" x="12.592612" y="55.666738" angle="-103.938116" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-148973670_0" slope="0.000000"/>
+        <vehicle id="15" x="12.623716" y="55.642210" angle="105.518434" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="294715528#0_0" slope="0.000000"/>
+        <vehicle id="17" x="12.526396" y="55.685135" angle="-24.145918" type="DEFAULT_VEHTYPE" speed="0.000000" pos="0.200000" lane="2954571#3_0" slope="0.000000"/>
+        <vehicle id="18" x="12.578650" y="55.676616" angle="134.600924" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="43129906#2_0" slope="0.000000"/>
+        <vehicle id="19" x="12.530070" y="55.683081" angle="67.275898" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="78456674#7_0" slope="0.000000"/>
+        <vehicle id="2" x="12.547775" y="55.737467" angle="20.527088" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="199311371_0" slope="0.000000"/>
+        <vehicle id="21" x="12.551795" y="55.717254" angle="74.857355" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="4314720#1_0" slope="0.000000"/>
+        <vehicle id="22" x="12.514657" y="55.639016" angle="112.924450" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25928905#1_0" slope="0.000000"/>
+        <vehicle id="23" x="12.533612" y="55.643455" angle="139.856207" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25916650_0" slope="0.000000"/>
+        <vehicle id="24" x="12.549580" y="55.679825" angle="65.846326" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="150900141#1_0" slope="0.000000"/>
+        <vehicle id="25" x="12.441564" y="55.682244" angle="108.703197" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-26154980#13_0" slope="0.000000"/>
+        <vehicle id="26" x="12.509382" y="55.685066" angle="70.735565" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="152244445#0_0" slope="0.000000"/>
+        <vehicle id="27" x="12.459546" y="55.724078" angle="-85.843200" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25966829#2_0" slope="0.000000"/>
+        <vehicle id="28" x="12.558358" y="55.693351" angle="39.266625" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="144381940_0" slope="0.000000"/>
+        <vehicle id="29" x="12.488976" y="55.677463" angle="109.547432" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-105577056#7_0" slope="0.000000"/>
+        <vehicle id="3" x="12.588385" y="55.632082" angle="173.664623" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="92967917_0" slope="0.000000"/>
+        <vehicle id="30" x="12.517218" y="55.682523" angle="-107.530922" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="148233539_0" slope="0.000000"/>
+        <vehicle id="32" x="12.505868" y="55.739656" angle="159.106258" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="11987003#2_0" slope="0.000000"/>
+        <vehicle id="33" x="12.573724" y="55.697724" angle="-137.794647" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.080000" lane="-26164984_0" slope="0.000000"/>
+        <vehicle id="34" x="12.653255" y="55.633841" angle="-154.024876" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="210556034#1_0" slope="0.000000"/>
+        <vehicle id="35" x="12.465026" y="55.714229" angle="-126.023080" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="227916945#6_0" slope="0.000000"/>
+        <vehicle id="36" x="12.442968" y="55.662349" angle="47.514367" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="227567920#0_0" slope="0.000000"/>
+        <vehicle id="37" x="12.539303" y="55.658704" angle="-20.019067" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="26482048#4_0" slope="0.000000"/>
+        <vehicle id="38" x="12.576252" y="55.670715" angle="-139.495735" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="45981167#1_0" slope="0.000000"/>
+        <vehicle id="39" x="12.547188" y="55.677832" angle="-114.141280" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="151193402_0" slope="0.000000"/>
+        <vehicle id="4" x="12.501565" y="55.715641" angle="-148.436830" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="119507348#1_0" slope="0.000000"/>
+        <vehicle id="5" x="12.562562" y="55.660461" angle="128.091271" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="143837842#0_0" slope="0.000000"/>
+        <vehicle id="7" x="12.577473" y="55.714209" angle="9.210192" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="237099606#1_0" slope="0.000000"/>
+        <vehicle id="8" x="12.538929" y="55.658637" angle="-91.445700" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="3547223#2_0" slope="0.000000"/>
+        <vehicle id="9" x="12.529426" y="55.678594" angle="-12.942186" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="79638075_0" slope="0.000000"/>
+        <person id="11" x="12.500272" y="55.650563" angle="-107.015050" speed="0.000000" pos="0.000000" edge="-10622605#5" slope="0.000000"/>
+        <person id="9" x="12.439051" y="55.742344" angle="96.170175" speed="0.000000" pos="0.000000" edge="-166880841#0" slope="0.000000"/>
+        <person id="3" x="12.495869" y="55.739314" angle="99.816485" speed="0.000000" pos="0.000000" edge="-22999375#0" slope="0.000000"/>
+        <person id="13" x="12.471499" y="55.710586" angle="-145.661289" speed="0.000000" pos="0.000000" edge="-25543967#6" slope="0.000000"/>
+        <person id="5" x="12.471792" y="55.713709" angle="-21.648843" speed="0.000000" pos="0.000000" edge="-25911395#3" slope="0.000000"/>
+        <person id="2" x="12.461553" y="55.714284" angle="-1.148707" speed="0.000000" pos="0.000000" edge="-25935717#0" slope="0.000000"/>
+        <person id="0" x="12.534863" y="55.731787" angle="-84.046822" speed="1.141386" pos="1.141386" edge="-4360541#6" slope="0.000000"/>
+        <person id="14" x="12.485060" y="55.707754" angle="143.130102" speed="0.000000" pos="0.000000" edge="-8482095#9" slope="0.000000"/>
+        <person id="7" x="12.608543" y="55.642672" angle="-81.205400" speed="0.000000" pos="0.000000" edge="108231456#5" slope="0.000000"/>
+        <person id="15" x="12.646602" y="55.648708" angle="39.047727" speed="0.000000" pos="0.000000" edge="153338051" slope="0.000000"/>
+        <person id="1" x="12.614685" y="55.646835" angle="-78.111342" speed="0.000000" pos="0.000000" edge="161860533#2" slope="0.000000"/>
+        <person id="17" x="12.565713" y="55.713599" angle="-69.584095" speed="0.000000" pos="0.000000" edge="1757742#6" slope="0.000000"/>
+        <person id="6" x="12.503347" y="55.678361" angle="98.769062" speed="0.000000" pos="0.000000" edge="220270796#0" slope="0.000000"/>
+        <person id="20" x="12.441412" y="55.722597" angle="168.690068" speed="0.000000" pos="0.000000" edge="221407653#2" slope="0.000000"/>
+        <person id="4" x="12.597378" y="55.667625" angle="26.618201" speed="0.000000" pos="0.000000" edge="237100946#6" slope="0.000000"/>
+        <person id="19" x="12.470107" y="55.717915" angle="111.543557" speed="0.000000" pos="0.000000" edge="25935668#0" slope="0.000000"/>
+        <person id="16" x="12.540612" y="55.714800" angle="-58.630142" speed="0.000000" pos="0.000000" edge="26284017#0" slope="0.000000"/>
+        <person id="10" x="12.553096" y="55.680196" angle="-106.873014" speed="0.000000" pos="0.000000" edge="29654#4" slope="0.000000"/>
+        <person id="18" x="12.531435" y="55.689340" angle="-29.109953" speed="0.000000" pos="0.000000" edge="8122584#1" slope="0.000000"/>
+        <person id="12" x="12.545455" y="55.704624" angle="-138.495777" speed="0.000000" pos="0.000000" edge="83872621#1" slope="0.000000"/>
+        <person id="8" x="12.505055" y="55.672160" angle="172.358644" speed="0.000000" pos="0.000000" edge="89367027#0" slope="0.000000"/>
+    </timestep>
+    <timestep time="2.00">
+        <vehicle id="0" x="12.537474" y="55.663378" angle="-18.966962" type="DEFAULT_VEHTYPE" speed="3.119846" pos="9.893605" lane="27409327_0" slope="0.000000"/>
+        <vehicle id="1" x="12.523009" y="55.704105" angle="5.126662" type="DEFAULT_VEHTYPE" speed="2.264449" pos="9.905326" lane="52178731#0_0" slope="0.000000"/>
+        <vehicle id="10" x="12.605041" y="55.723219" angle="-112.744562" type="DEFAULT_VEHTYPE" speed="1.845911" pos="1.845911" lane=":20923528_0_0" slope="0.000000"/>
+        <vehicle id="12" x="12.507062" y="55.731975" angle="-146.411449" type="DEFAULT_VEHTYPE" speed="2.381663" pos="7.481663" lane="22999401#3_0" slope="0.000000"/>
+        <vehicle id="13" x="12.487349" y="55.684519" angle="-55.832019" type="DEFAULT_VEHTYPE" speed="1.606147" pos="1.606147" lane=":1473295_2_0" slope="0.000000"/>
+        <vehicle id="14" x="12.592576" y="55.666743" angle="-103.938116" type="DEFAULT_VEHTYPE" speed="2.292267" pos="7.392267" lane="-148973670_0" slope="0.000000"/>
+        <vehicle id="15" x="12.623742" y="55.642215" angle="105.518434" type="DEFAULT_VEHTYPE" speed="1.731436" pos="6.831436" lane="294715528#0_0" slope="0.000000"/>
+        <vehicle id="17" x="12.526386" y="55.685121" angle="-24.148685" type="DEFAULT_VEHTYPE" speed="1.669772" pos="1.669772" lane=":1616521161_0_0" slope="0.000000"/>
+        <vehicle id="18" x="12.578672" y="55.676624" angle="121.197151" type="DEFAULT_VEHTYPE" speed="1.700909" pos="6.800909" lane="43129906#2_0" slope="0.000000"/>
+        <vehicle id="19" x="12.530102" y="55.683074" angle="67.275898" type="DEFAULT_VEHTYPE" speed="2.199878" pos="7.299878" lane="78456674#7_0" slope="0.000000"/>
+        <vehicle id="2" x="12.547797" y="55.737453" angle="35.278959" type="DEFAULT_VEHTYPE" speed="2.065251" pos="7.165251" lane="199311371_0" slope="0.000000"/>
+        <vehicle id="21" x="12.551816" y="55.717251" angle="74.857355" type="DEFAULT_VEHTYPE" speed="1.384431" pos="6.484431" lane="4314720#1_0" slope="0.000000"/>
+        <vehicle id="22" x="12.514679" y="55.639022" angle="112.924450" type="DEFAULT_VEHTYPE" speed="1.544790" pos="6.644790" lane="25928905#1_0" slope="0.000000"/>
+        <vehicle id="23" x="12.533634" y="55.643471" angle="139.856207" type="DEFAULT_VEHTYPE" speed="2.286194" pos="7.386194" lane="25916650_0" slope="0.000000"/>
+        <vehicle id="24" x="12.549612" y="55.679818" angle="65.846326" type="DEFAULT_VEHTYPE" speed="2.169300" pos="7.269300" lane="150900141#1_0" slope="0.000000"/>
+        <vehicle id="25" x="12.441602" y="55.682252" angle="108.703197" type="DEFAULT_VEHTYPE" speed="2.557857" pos="7.657857" lane="-26154980#13_0" slope="0.000000"/>
+        <vehicle id="26" x="12.509419" y="55.685059" angle="70.735565" type="DEFAULT_VEHTYPE" speed="2.437003" pos="7.537003" lane="152244445#0_0" slope="0.000000"/>
+        <vehicle id="27" x="12.459506" y="55.724076" angle="-85.843200" type="DEFAULT_VEHTYPE" speed="2.484271" pos="7.584271" lane="25966829#2_0" slope="0.000000"/>
+        <vehicle id="28" x="12.558397" y="55.693349" angle="59.782848" type="DEFAULT_VEHTYPE" speed="2.561230" pos="2.351230" lane=":1579322654_8_0" slope="0.000000"/>
+        <vehicle id="29" x="12.489004" y="55.677469" angle="109.547432" type="DEFAULT_VEHTYPE" speed="1.892393" pos="6.992393" lane="-105577056#7_0" slope="0.000000"/>
+        <vehicle id="3" x="12.588388" y="55.632103" angle="173.664623" type="DEFAULT_VEHTYPE" speed="2.381081" pos="7.481081" lane="92967917_0" slope="0.000000"/>
+        <vehicle id="30" x="12.517192" y="55.682527" angle="-107.530922" type="DEFAULT_VEHTYPE" speed="1.709408" pos="6.809408" lane="148233539_0" slope="0.000000"/>
+        <vehicle id="32" x="12.505880" y="55.739677" angle="159.106258" type="DEFAULT_VEHTYPE" speed="2.393161" pos="7.493161" lane="11987003#2_0" slope="0.000000"/>
+        <vehicle id="33" x="12.573690" y="55.697725" angle="-119.207225" type="DEFAULT_VEHTYPE" speed="2.207709" pos="2.207709" lane=":286511804_3_0" slope="0.000000"/>
+        <vehicle id="34" x="12.653245" y="55.633851" angle="-154.024876" type="DEFAULT_VEHTYPE" speed="1.346094" pos="6.446094" lane="210556034#1_0" slope="0.000000"/>
+        <vehicle id="35" x="12.464995" y="55.714241" angle="-126.023080" type="DEFAULT_VEHTYPE" speed="2.309929" pos="7.409929" lane="227916945#6_0" slope="0.000000"/>
+        <vehicle id="36" x="12.442997" y="55.662337" angle="49.235236" type="DEFAULT_VEHTYPE" speed="2.256706" pos="0.266706" lane=":1781963810_5_0" slope="0.000000"/>
+        <vehicle id="37" x="12.539346" y="55.658683" angle="-20.019067" type="DEFAULT_VEHTYPE" speed="1.379249" pos="6.479249" lane="26482048#4_1" slope="0.000000"/>
+        <vehicle id="38" x="12.576237" y="55.670724" angle="-139.297477" type="DEFAULT_VEHTYPE" speed="1.352077" pos="6.452077" lane="45981167#1_0" slope="0.000000"/>
+        <vehicle id="39" x="12.547152" y="55.677840" angle="-114.141280" type="DEFAULT_VEHTYPE" speed="2.431812" pos="7.531812" lane="151193402_0" slope="0.000000"/>
+        <vehicle id="4" x="12.501552" y="55.715653" angle="-148.436830" type="DEFAULT_VEHTYPE" speed="1.528400" pos="6.628400" lane="119507348#1_0" slope="0.000000"/>
+        <vehicle id="40" x="12.543436" y="55.684189" angle="66.960564" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-146459058#1_0" slope="0.000000"/>
+        <vehicle id="41" x="12.530389" y="55.646511" angle="73.937531" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-128468662_0" slope="0.000000"/>
+        <vehicle id="42" x="12.574852" y="55.632515" angle="-14.665643" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-147476448#3_0" slope="0.000000"/>
+        <vehicle id="43" x="12.532674" y="55.668039" angle="13.015950" type="DEFAULT_VEHTYPE" speed="0.000000" pos="4.900000" lane="150090925#1_0" slope="0.000000"/>
+        <vehicle id="44" x="12.450816" y="55.662616" angle="85.952230" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="118548402#4_0" slope="0.000000"/>
+        <vehicle id="45" x="12.546775" y="55.694181" angle="131.268603" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="115331054#0_0" slope="0.000000"/>
+        <vehicle id="47" x="12.543201" y="55.684159" angle="-32.267190" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="23803819#0_0" slope="0.000000"/>
+        <vehicle id="48" x="12.551480" y="55.674889" angle="67.181498" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-151152175#3_0" slope="0.000000"/>
+        <vehicle id="49" x="12.505466" y="55.679377" angle="-19.447684" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-154348710#0_0" slope="0.000000"/>
+        <vehicle id="5" x="12.562578" y="55.660468" angle="128.091271" type="DEFAULT_VEHTYPE" speed="1.356433" pos="6.456433" lane="143837842#0_0" slope="0.000000"/>
+        <vehicle id="50" x="12.501162" y="55.743756" angle="-75.920534" type="DEFAULT_VEHTYPE" speed="0.000000" pos="0.200000" lane="237352556#15_0" slope="0.000000"/>
+        <vehicle id="51" x="12.604665" y="55.648152" angle="-168.637980" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-8122614#8_0" slope="0.000000"/>
+        <vehicle id="53" x="12.623768" y="55.638100" angle="15.995259" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-4230797_0" slope="0.000000"/>
+        <vehicle id="54" x="12.569400" y="55.702270" angle="-41.572926" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-4204572#3_0" slope="0.000000"/>
+        <vehicle id="55" x="12.504456" y="55.660822" angle="12.067506" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="94089737#0_0" slope="0.000000"/>
+        <vehicle id="56" x="12.454291" y="55.682311" angle="95.348006" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="352152151#1_0" slope="0.000000"/>
+        <vehicle id="58" x="12.526451" y="55.729586" angle="11.280254" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="360241153_0" slope="0.000000"/>
+        <vehicle id="59" x="12.473834" y="55.664640" angle="-4.500275" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-155511409#22_0" slope="0.000000"/>
+        <vehicle id="7" x="12.577478" y="55.714192" angle="9.210192" type="DEFAULT_VEHTYPE" speed="1.856909" pos="6.956909" lane="237099606#1_0" slope="0.000000"/>
+        <vehicle id="8" x="12.538900" y="55.658637" angle="-91.445700" type="DEFAULT_VEHTYPE" speed="1.824905" pos="6.924905" lane="3547223#2_0" slope="0.000000"/>
+        <vehicle id="9" x="12.529420" y="55.678577" angle="-12.942186" type="DEFAULT_VEHTYPE" speed="1.959657" pos="7.059657" lane="79638075_0" slope="0.000000"/>
+        <person id="7" x="12.608521" y="55.642670" angle="-81.190636" speed="1.372151" pos="4.827849" edge=":1242099798_1" slope="0.000000"/>
+        <person id="9" x="12.439068" y="55.742345" angle="89.633898" speed="1.201943" pos="9.458057" edge=":1783000027_1" slope="0.000000"/>
+        <person id="20" x="12.441412" y="55.722609" angle="-178.773672" speed="1.237424" pos="1.037424" edge=":2314421486_1" slope="0.000000"/>
+        <person id="3" x="12.495890" y="55.739317" angle="105.720461" speed="1.259399" pos="7.490601" edge=":247948370_0" slope="0.000000"/>
+        <person id="2" x="12.461549" y="55.714281" angle="-147.380757" speed="1.231590" pos="1.298410" edge=":2610996986_2" slope="0.000000"/>
+        <person id="13" x="12.471483" y="55.710628" angle="153.868999" speed="1.263302" pos="4.166698" edge=":278386823_1" slope="0.000000"/>
+        <person id="1" x="12.614666" y="55.646833" angle="-78.726277" speed="1.182429" pos="0.982429" edge=":3605963242_0" slope="0.000000"/>
+        <person id="11" x="12.500254" y="55.650568" angle="-115.137415" speed="1.387212" pos="9.152788" edge=":93029030_2" slope="0.000000"/>
+        <person id="19" x="12.470158" y="55.717865" angle="-13.956208" speed="1.198998" pos="1.198998" edge="-113112644#1" slope="0.000000"/>
+        <person id="21" x="12.626793" y="55.658783" angle="19.669291" speed="0.000000" pos="0.000000" edge="-148886116#0" slope="0.000000"/>
+        <person id="17" x="12.565541" y="55.713586" angle="-70.577081" speed="1.145671" pos="1.145671" edge="-1757742#5" slope="0.000000"/>
+        <person id="8" x="12.505103" y="55.672229" angle="178.188329" speed="1.212923" pos="1.212923" edge="-23177489" slope="0.000000"/>
+        <person id="4" x="12.597422" y="55.667529" angle="26.672686" speed="1.299454" pos="1.299454" edge="-237100946#5" slope="0.000000"/>
+        <person id="27" x="12.497785" y="55.743109" angle="-30.465545" speed="0.000000" pos="0.000000" edge="-23916467#1" slope="0.000000"/>
+        <person id="31" x="12.472860" y="55.711887" angle="-66.037511" speed="0.000000" pos="0.000000" edge="-25911190#0" slope="0.000000"/>
+        <person id="5" x="12.471785" y="55.713699" angle="-21.648843" speed="1.252376" pos="1.252376" edge="-25911395#3" slope="0.000000"/>
+        <person id="10" x="12.552992" y="55.680242" angle="-113.884622" speed="1.376056" pos="1.376056" edge="-29654#3" slope="0.000000"/>
+        <person id="39" x="12.538696" y="55.700667" angle="-131.638256" speed="0.000000" pos="0.000000" edge="-358624679" slope="0.000000"/>
+        <person id="14" x="12.485152" y="55.707728" angle="53.609147" speed="1.315412" pos="1.315412" edge="-38328779#14" slope="0.000000"/>
+        <person id="38" x="12.500131" y="55.692578" angle="28.651025" speed="0.000000" pos="0.000000" edge="-3992560#2" slope="0.000000"/>
+        <person id="37" x="12.573982" y="55.741971" angle="149.453502" speed="0.000000" pos="0.000000" edge="-4313371" slope="0.000000"/>
+        <person id="0" x="12.534844" y="55.731786" angle="-84.046822" speed="1.225013" pos="2.366399" edge="-4360541#6" slope="0.000000"/>
+        <person id="33" x="12.508847" y="55.711556" angle="100.964314" speed="0.000000" pos="0.000000" edge="-4767377#1" slope="0.000000"/>
+        <person id="35" x="12.636370" y="55.640348" angle="-74.087369" speed="0.000000" pos="0.000000" edge="-8122489#0" slope="0.000000"/>
+        <person id="18" x="12.531319" y="55.689265" angle="-29.102060" speed="1.246398" pos="1.246398" edge="-8122584#0" slope="0.000000"/>
+        <person id="12" x="12.545377" y="55.704711" angle="-142.518038" speed="1.303593" pos="1.303593" edge="-83872621#0" slope="0.000000"/>
+        <person id="15" x="12.646616" y="55.648699" angle="39.047727" speed="1.376774" pos="1.376774" edge="153338051" slope="0.000000"/>
+        <person id="6" x="12.503367" y="55.678363" angle="98.769062" speed="1.320139" pos="1.320139" edge="220270796#0" slope="0.000000"/>
+        <person id="30" x="12.488579" y="55.660667" angle="84.552405" speed="0.000000" pos="0.000000" edge="24526887#1" slope="0.000000"/>
+        <person id="24" x="12.566592" y="55.726214" angle="-12.221774" speed="0.000000" pos="0.000000" edge="26085383#5" slope="0.000000"/>
+        <person id="16" x="12.540596" y="55.714794" angle="-58.630142" speed="1.181911" pos="1.181911" edge="26284017#0" slope="0.000000"/>
+        <person id="32" x="12.549332" y="55.690106" angle="145.009881" speed="0.000000" pos="0.000000" edge="322679166#7" slope="0.000000"/>
+        <person id="40" x="12.473667" y="55.681821" angle="64.323184" speed="0.000000" pos="0.000000" edge="34587510#0" slope="0.000000"/>
+        <person id="22" x="12.582750" y="55.670628" angle="-101.625360" speed="0.000000" pos="0.000000" edge="3643789#5" slope="0.000000"/>
+        <person id="23" x="12.557078" y="55.659467" angle="176.006364" speed="0.000000" pos="0.000000" edge="364793653#5" slope="0.000000"/>
+        <person id="28" x="12.555770" y="55.677496" angle="-101.888658" speed="0.000000" pos="0.000000" edge="3735#4" slope="0.000000"/>
+        <person id="36" x="12.536312" y="55.717155" angle="-14.623053" speed="0.000000" pos="0.000000" edge="4349665#0" slope="0.000000"/>
+        <person id="26" x="12.533016" y="55.722924" angle="174.414482" speed="0.000000" pos="0.000000" edge="4350089" slope="0.000000"/>
+        <person id="29" x="12.576892" y="55.727645" angle="-102.592567" speed="0.000000" pos="0.000000" edge="57775962" slope="0.000000"/>
+        <person id="25" x="12.586692" y="55.707996" angle="-72.557313" speed="0.000000" pos="0.000000" edge="83348641#1" slope="0.000000"/>
+    </timestep>
+    <timestep time="3.00">
+        <vehicle id="0" x="12.537450" y="55.663334" angle="-18.966962" type="DEFAULT_VEHTYPE" speed="5.127336" pos="15.020940" lane="27409327_0" slope="0.000000"/>
+        <vehicle id="1" x="12.523013" y="55.704090" angle="5.126662" type="DEFAULT_VEHTYPE" speed="1.644020" pos="11.549345" lane="52178731#0_0" slope="0.000000"/>
+        <vehicle id="10" x="12.604982" y="55.723231" angle="-112.649127" type="DEFAULT_VEHTYPE" speed="3.952619" pos="5.798530" lane=":20923528_0_0" slope="0.000000"/>
+        <vehicle id="12" x="12.507006" y="55.732004" angle="-135.024807" type="DEFAULT_VEHTYPE" speed="4.820076" pos="12.301738" lane="22999401#3_0" slope="0.000000"/>
+        <vehicle id="13" x="12.487386" y="55.684506" angle="26.300517" type="DEFAULT_VEHTYPE" speed="3.343855" pos="0.130002" lane="2860760#5_0" slope="0.000000"/>
+        <vehicle id="14" x="12.592520" y="55.666749" angle="-103.938116" type="DEFAULT_VEHTYPE" speed="3.629335" pos="11.021602" lane="-148973670_0" slope="0.000000"/>
+        <vehicle id="15" x="12.623775" y="55.642221" angle="105.518434" type="DEFAULT_VEHTYPE" speed="2.155971" pos="8.987407" lane="294715528#0_0" slope="0.000000"/>
+        <vehicle id="17" x="12.526362" y="55.685088" angle="-24.179894" type="DEFAULT_VEHTYPE" speed="3.909303" pos="1.509076" lane="2954571#4_0" slope="0.000000"/>
+        <vehicle id="18" x="12.578723" y="55.676643" angle="121.197151" type="DEFAULT_VEHTYPE" speed="3.793048" pos="10.593957" lane="43129906#2_0" slope="0.000000"/>
+        <vehicle id="19" x="12.530157" y="55.683062" angle="67.275898" type="DEFAULT_VEHTYPE" speed="3.700745" pos="11.000623" lane="78456674#7_0" slope="0.000000"/>
+        <vehicle id="2" x="12.547838" y="55.737431" angle="43.114581" type="DEFAULT_VEHTYPE" speed="3.649950" pos="10.815201" lane="199311371_0" slope="0.000000"/>
+        <vehicle id="21" x="12.551846" y="55.717247" angle="74.857355" type="DEFAULT_VEHTYPE" speed="1.902069" pos="8.386500" lane="4314720#1_0" slope="0.000000"/>
+        <vehicle id="22" x="12.514703" y="55.639028" angle="112.924450" type="DEFAULT_VEHTYPE" speed="1.633403" pos="8.278192" lane="25928905#1_0" slope="0.000000"/>
+        <vehicle id="23" x="12.533680" y="55.643504" angle="139.856207" type="DEFAULT_VEHTYPE" speed="4.702692" pos="12.088886" lane="25916650_0" slope="0.000000"/>
+        <vehicle id="24" x="12.549680" y="55.679802" angle="65.846326" type="DEFAULT_VEHTYPE" speed="4.637317" pos="11.906617" lane="150900141#1_0" slope="0.000000"/>
+        <vehicle id="25" x="12.441673" y="55.682268" angle="108.703197" type="DEFAULT_VEHTYPE" speed="4.772641" pos="12.430498" lane="-26154980#13_0" slope="0.000000"/>
+        <vehicle id="26" x="12.509482" y="55.685048" angle="70.735565" type="DEFAULT_VEHTYPE" speed="4.176640" pos="11.713643" lane="152244445#0_0" slope="0.000000"/>
+        <vehicle id="27" x="12.459434" y="55.724071" angle="-85.843200" type="DEFAULT_VEHTYPE" speed="4.601176" pos="12.185447" lane="25966829#2_0" slope="0.000000"/>
+        <vehicle id="28" x="12.558377" y="55.693384" angle="-170.621690" type="DEFAULT_VEHTYPE" speed="4.601115" pos="2.132345" lane="-144381940_0" slope="0.000000"/>
+        <vehicle id="29" x="12.489059" y="55.677482" angle="109.547432" type="DEFAULT_VEHTYPE" speed="3.746644" pos="10.739037" lane="-105577056#7_0" slope="0.000000"/>
+        <vehicle id="3" x="12.588390" y="55.632118" angle="173.664623" type="DEFAULT_VEHTYPE" speed="1.604245" pos="9.085327" lane="92967917_0" slope="0.000000"/>
+        <vehicle id="30" x="12.517140" y="55.682535" angle="-107.530922" type="DEFAULT_VEHTYPE" speed="3.400081" pos="10.209489" lane="148233539_0" slope="0.000000"/>
+        <vehicle id="32" x="12.505903" y="55.739714" angle="159.106258" type="DEFAULT_VEHTYPE" speed="4.458757" pos="11.951919" lane="11987003#2_0" slope="0.000000"/>
+        <vehicle id="33" x="12.573706" y="55.697692" angle="3.584460" type="DEFAULT_VEHTYPE" speed="4.359786" pos="1.747495" lane="26164984_0" slope="0.000000"/>
+        <vehicle id="34" x="12.653218" y="55.633880" angle="-154.024876" type="DEFAULT_VEHTYPE" speed="3.580526" pos="10.026620" lane="210556034#1_0" slope="0.000000"/>
+        <vehicle id="35" x="12.464943" y="55.714261" angle="-126.023080" type="DEFAULT_VEHTYPE" speed="3.984047" pos="11.393976" lane="227916945#6_0" slope="0.000000"/>
+        <vehicle id="36" x="12.443028" y="55.662356" angle="118.973680" type="DEFAULT_VEHTYPE" speed="4.090886" pos="1.947592" lane=":1781963810_7_0" slope="0.000000"/>
+        <vehicle id="37" x="12.539329" y="55.658654" angle="-20.019067" type="DEFAULT_VEHTYPE" speed="3.426615" pos="9.905864" lane="26482048#4_1" slope="0.000000"/>
+        <vehicle id="38" x="12.576199" y="55.670735" angle="-127.900452" type="DEFAULT_VEHTYPE" speed="2.680400" pos="9.132477" lane="45981167#1_0" slope="0.000000"/>
+        <vehicle id="39" x="12.547087" y="55.677855" angle="-114.141280" type="DEFAULT_VEHTYPE" speed="4.425589" pos="11.957400" lane="151193402_0" slope="0.000000"/>
+        <vehicle id="4" x="12.501523" y="55.715677" angle="-148.436830" type="DEFAULT_VEHTYPE" speed="3.204427" pos="9.832827" lane="119507348#1_0" slope="0.000000"/>
+        <vehicle id="40" x="12.543463" y="55.684183" angle="66.960564" type="DEFAULT_VEHTYPE" speed="1.829507" pos="6.929507" lane="-146459058#1_0" slope="0.000000"/>
+        <vehicle id="41" x="12.530416" y="55.646507" angle="73.786819" type="DEFAULT_VEHTYPE" speed="1.714897" pos="6.814897" lane="-128468662_0" slope="0.000000"/>
+        <vehicle id="42" x="12.574846" y="55.632499" angle="-14.665643" type="DEFAULT_VEHTYPE" speed="1.854661" pos="6.954661" lane="-147476448#3_0" slope="0.000000"/>
+        <vehicle id="43" x="12.532674" y="55.668026" angle="4.347936" type="DEFAULT_VEHTYPE" speed="1.446629" pos="1.446629" lane=":1630142601_2_0" slope="0.000000"/>
+        <vehicle id="44" x="12.450837" y="55.662616" angle="85.952230" type="DEFAULT_VEHTYPE" speed="1.324757" pos="6.424757" lane="118548402#4_0" slope="0.000000"/>
+        <vehicle id="45" x="12.546805" y="55.694197" angle="131.268603" type="DEFAULT_VEHTYPE" speed="2.580987" pos="7.680987" lane="115331054#0_0" slope="0.000000"/>
+        <vehicle id="47" x="12.543189" y="55.684148" angle="-32.267190" type="DEFAULT_VEHTYPE" speed="1.425627" pos="6.525627" lane="23803819#0_0" slope="0.000000"/>
+        <vehicle id="48" x="12.551517" y="55.674881" angle="67.181498" type="DEFAULT_VEHTYPE" speed="2.466261" pos="7.566261" lane="-151152175#3_0" slope="0.000000"/>
+        <vehicle id="49" x="12.505459" y="55.679365" angle="-19.447684" type="DEFAULT_VEHTYPE" speed="1.486471" pos="6.586471" lane="-154348710#0_0" slope="0.000000"/>
+        <vehicle id="5" x="12.562621" y="55.660489" angle="128.091271" type="DEFAULT_VEHTYPE" speed="3.510699" pos="9.967131" lane="143837842#0_0" slope="0.000000"/>
+        <vehicle id="50" x="12.501132" y="55.743753" angle="-77.748788" type="DEFAULT_VEHTYPE" speed="1.972502" pos="1.972502" lane=":284152752_0_0" slope="0.000000"/>
+        <vehicle id="51" x="12.604658" y="55.648169" angle="-168.637980" type="DEFAULT_VEHTYPE" speed="1.885990" pos="6.985990" lane="-8122614#8_0" slope="0.000000"/>
+        <vehicle id="53" x="12.623774" y="55.638088" angle="15.995259" type="DEFAULT_VEHTYPE" speed="1.371781" pos="6.471781" lane="-4230797_0" slope="0.000000"/>
+        <vehicle id="54" x="12.569374" y="55.702252" angle="-41.572926" type="DEFAULT_VEHTYPE" speed="2.600000" pos="7.700000" lane="-4204572#3_0" slope="0.000000"/>
+        <vehicle id="55" x="12.504462" y="55.660808" angle="12.067506" type="DEFAULT_VEHTYPE" speed="1.562657" pos="6.662657" lane="94089737#0_0" slope="0.000000"/>
+        <vehicle id="56" x="12.454329" y="55.682313" angle="95.348006" type="DEFAULT_VEHTYPE" speed="2.382245" pos="7.482245" lane="352152151#1_0" slope="0.000000"/>
+        <vehicle id="58" x="12.526459" y="55.729567" angle="11.280254" type="DEFAULT_VEHTYPE" speed="2.150418" pos="7.250418" lane="360241153_0" slope="0.000000"/>
+        <vehicle id="59" x="12.473833" y="55.664624" angle="-4.500275" type="DEFAULT_VEHTYPE" speed="1.766540" pos="6.866540" lane="-155511409#22_0" slope="0.000000"/>
+        <vehicle id="60" x="12.538511" y="55.743350" angle="57.673170" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="4266619#0_0" slope="0.000000"/>
+        <vehicle id="61" x="12.588107" y="55.710047" angle="-171.402886" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="241592084#0_0" slope="0.000000"/>
+        <vehicle id="62" x="12.595422" y="55.668491" angle="31.672120" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="357118527_0" slope="0.000000"/>
+        <vehicle id="63" x="12.551676" y="55.645620" angle="41.525487" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25684411_0" slope="0.000000"/>
+        <vehicle id="64" x="12.527488" y="55.645884" angle="167.762297" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25913457#1_0" slope="0.000000"/>
+        <vehicle id="65" x="12.570615" y="55.714238" angle="-172.785810" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="1881447#1_0" slope="0.000000"/>
+        <vehicle id="66" x="12.563085" y="55.733433" angle="62.944135" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-305423409#4_0" slope="0.000000"/>
+        <vehicle id="67" x="12.446488" y="55.730944" angle="-47.712908" type="DEFAULT_VEHTYPE" speed="0.000000" pos="3.470000" lane="30526840#3_0" slope="0.000000"/>
+        <vehicle id="68" x="12.555785" y="55.681371" angle="-122.914913" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="150893279_0" slope="0.000000"/>
+        <vehicle id="69" x="12.468794" y="55.744601" angle="-8.620311" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-172369656_0" slope="0.000000"/>
+        <vehicle id="7" x="12.577489" y="55.714161" angle="9.210192" type="DEFAULT_VEHTYPE" speed="3.529650" pos="10.486559" lane="237099606#1_0" slope="0.000000"/>
+        <vehicle id="70" x="12.515504" y="55.740176" angle="-98.099577" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-22987568#2_0" slope="0.000000"/>
+        <vehicle id="72" x="12.643579" y="55.635077" angle="-162.047411" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-4374791_0" slope="0.000000"/>
+        <vehicle id="73" x="12.521703" y="55.711021" angle="-82.560050" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="328522072_0" slope="0.000000"/>
+        <vehicle id="74" x="12.542981" y="55.685736" angle="161.238716" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-148756803#1_0" slope="0.000000"/>
+        <vehicle id="75" x="12.481252" y="55.740332" angle="-178.083756" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25441974#2_0" slope="0.000000"/>
+        <vehicle id="76" x="12.548132" y="55.725147" angle="155.917255" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-48524881#1_0" slope="0.000000"/>
+        <vehicle id="8" x="12.538830" y="55.658636" angle="-91.445700" type="DEFAULT_VEHTYPE" speed="4.369533" pos="11.294438" lane="3547223#2_0" slope="0.000000"/>
+        <vehicle id="9" x="12.529407" y="55.678539" angle="-12.942186" type="DEFAULT_VEHTYPE" speed="4.360026" pos="11.419682" lane="79638075_0" slope="0.000000"/>
+        <person id="7" x="12.608500" y="55.642667" angle="-81.190636" speed="1.366667" pos="3.461182" edge=":1242099798_1" slope="0.000000"/>
+        <person id="23" x="12.557079" y="55.659479" angle="175.953082" speed="1.304795" pos="8.195205" edge=":1574030619_1" slope="0.000000"/>
+        <person id="9" x="12.439087" y="55.742345" angle="89.633898" speed="1.188368" pos="8.269689" edge=":1783000027_1" slope="0.000000"/>
+        <person id="20" x="12.441411" y="55.722620" angle="-178.773672" speed="1.123637" pos="2.161061" edge=":2314421486_1" slope="0.000000"/>
+        <person id="3" x="12.495910" y="55.739321" angle="105.720461" speed="1.291154" pos="6.199447" edge=":247948370_0" slope="0.000000"/>
+        <person id="27" x="12.497779" y="55.743094" angle="-12.994617" speed="1.271328" pos="1.258672" edge=":259229888_2" slope="0.000000"/>
+        <person id="37" x="12.573992" y="55.741972" angle="115.529698" speed="1.280625" pos="3.539375" edge=":26134375_5" slope="0.000000"/>
+        <person id="36" x="12.536265" y="55.717121" angle="-77.755472" speed="1.145684" pos="4.274316" edge=":26490156_7" slope="0.000000"/>
+        <person id="13" x="12.471487" y="55.710635" angle="130.515394" speed="1.329898" pos="2.836800" edge=":278386823_1" slope="0.000000"/>
+        <person id="24" x="12.566588" y="55.726203" angle="-12.398385" speed="1.273007" pos="4.916993" edge=":285487542_1" slope="0.000000"/>
+        <person id="32" x="12.549344" y="55.690116" angle="145.479135" speed="1.287451" pos="8.272549" edge=":297902614_0" slope="0.000000"/>
+        <person id="33" x="12.508866" y="55.711558" angle="100.978883" speed="1.246438" pos="8.253562" edge=":30451764_1" slope="0.000000"/>
+        <person id="1" x="12.614646" y="55.646830" angle="-78.726277" speed="1.337956" pos="2.320385" edge=":3605963242_0" slope="0.000000"/>
+        <person id="35" x="12.636352" y="55.640345" angle="-74.411247" speed="1.159574" pos="8.330426" edge=":7427919_7" slope="0.000000"/>
+        <person id="11" x="12.500237" y="55.650572" angle="-115.137415" speed="1.200367" pos="7.952420" edge=":93029030_2" slope="0.000000"/>
+        <person id="19" x="12.470154" y="55.717855" angle="-13.956208" speed="1.210656" pos="2.409654" edge="-113112644#1" slope="0.000000"/>
+        <person id="21" x="12.626801" y="55.658772" angle="19.669291" speed="1.346713" pos="1.346713" edge="-148886116#0" slope="0.000000"/>
+        <person id="54" x="12.583033" y="55.700741" angle="-68.556096" speed="0.000000" pos="0.000000" edge="-174675649#0" slope="0.000000"/>
+        <person id="17" x="12.565520" y="55.713582" angle="-70.577081" speed="1.381156" pos="2.526827" edge="-1757742#5" slope="0.000000"/>
+        <person id="52" x="12.597686" y="55.656115" angle="-105.446316" speed="0.000000" pos="0.000000" edge="-1908074#1" slope="0.000000"/>
+        <person id="47" x="12.492061" y="55.639721" angle="101.195798" speed="0.000000" pos="0.000000" edge="-226984945#12" slope="0.000000"/>
+        <person id="8" x="12.505103" y="55.672241" angle="178.188329" speed="1.311433" pos="2.524356" edge="-23177489" slope="0.000000"/>
+        <person id="4" x="12.597432" y="55.667519" angle="26.672686" speed="1.237009" pos="2.536463" edge="-237100946#5" slope="0.000000"/>
+        <person id="31" x="12.472842" y="55.711727" angle="65.957361" speed="1.131081" pos="0.931081" edge="-237211374#3" slope="0.000000"/>
+        <person id="55" x="12.547264" y="55.685283" angle="168.690068" speed="0.000000" pos="0.000000" edge="-237353949#5" slope="0.000000"/>
+        <person id="30" x="12.488746" y="55.660638" angle="85.127642" speed="1.226384" pos="1.226384" edge="-24526887#0" slope="0.000000"/>
+        <person id="50" x="12.555058" y="55.718689" angle="78.721939" speed="0.000000" pos="0.000000" edge="-24582991#12" slope="0.000000"/>
+        <person id="42" x="12.468695" y="55.631616" angle="-158.245553" speed="0.000000" pos="0.000000" edge="-25210874#1" slope="0.000000"/>
+        <person id="5" x="12.471778" y="55.713687" angle="-21.648843" speed="1.370285" pos="2.622661" edge="-25911395#3" slope="0.000000"/>
+        <person id="26" x="12.533119" y="55.722942" angle="85.183793" speed="1.215214" pos="1.215214" edge="-27116543#9" slope="0.000000"/>
+        <person id="10" x="12.552972" y="55.680247" angle="-113.884622" speed="1.339173" pos="2.715229" edge="-29654#3" slope="0.000000"/>
+        <person id="22" x="12.582639" y="55.670664" angle="-101.967102" speed="1.382265" pos="1.382265" edge="-3643789#4" slope="0.000000"/>
+        <person id="28" x="12.555703" y="55.677528" angle="-102.747159" speed="1.359800" pos="1.359800" edge="-3735#3" slope="0.000000"/>
+        <person id="14" x="12.485167" y="55.707722" angle="53.609147" speed="1.113258" pos="2.428671" edge="-38328779#14" slope="0.000000"/>
+        <person id="38" x="12.500141" y="55.692568" angle="28.651025" speed="1.301705" pos="1.301705" edge="-3992560#2" slope="0.000000"/>
+        <person id="45" x="12.548773" y="55.704733" angle="-49.523912" speed="0.000000" pos="0.000000" edge="-4212133#1" slope="0.000000"/>
+        <person id="48" x="12.625387" y="55.643617" angle="-164.085180" speed="0.000000" pos="0.000000" edge="-4230805#1" slope="0.000000"/>
+        <person id="0" x="12.534823" y="55.731784" angle="-84.046822" speed="1.294718" pos="3.661117" edge="-4360541#6" slope="0.000000"/>
+        <person id="18" x="12.531309" y="55.689254" angle="-29.102060" speed="1.364995" pos="2.611393" edge="-8122584#0" slope="0.000000"/>
+        <person id="25" x="12.586509" y="55.707996" angle="-82.582457" speed="1.252033" pos="1.252033" edge="-83348641#0" slope="0.000000"/>
+        <person id="12" x="12.545365" y="55.704720" angle="-142.518038" speed="1.231348" pos="2.534941" edge="-83872621#0" slope="0.000000"/>
+        <person id="56" x="12.497809" y="55.685552" angle="38.810778" speed="0.000000" pos="0.000000" edge="113551030" slope="0.000000"/>
+        <person id="44" x="12.444925" y="55.659692" angle="22.414916" speed="0.000000" pos="0.000000" edge="118631094" slope="0.000000"/>
+        <person id="15" x="12.646630" y="55.648690" angle="39.047727" speed="1.331342" pos="2.708116" edge="153338051" slope="0.000000"/>
+        <person id="46" x="12.538038" y="55.682622" angle="-120.501217" speed="0.000000" pos="0.000000" edge="1822845#6" slope="0.000000"/>
+        <person id="49" x="12.495282" y="55.680832" angle="-45.651060" speed="0.000000" pos="0.000000" edge="1880391#6" slope="0.000000"/>
+        <person id="57" x="12.548251" y="55.738882" angle="-54.905441" speed="0.000000" pos="0.000000" edge="218726953#0" slope="0.000000"/>
+        <person id="6" x="12.503388" y="55.678365" angle="98.769062" speed="1.338705" pos="2.658844" edge="220270796#0" slope="0.000000"/>
+        <person id="39" x="12.538682" y="55.700675" angle="-133.546105" speed="1.218024" pos="9.931976" edge="237344069#1" slope="0.000000"/>
+        <person id="2" x="12.461541" y="55.714284" angle="178.850001" speed="1.308323" pos="56.920087" edge="25935717#0" slope="0.000000"/>
+        <person id="16" x="12.540578" y="55.714787" angle="-58.630142" speed="1.375877" pos="2.557788" edge="26284017#0" slope="0.000000"/>
+        <person id="43" x="12.577481" y="55.708399" angle="-5.051799" speed="0.000000" pos="0.000000" edge="28612120#14" slope="0.000000"/>
+        <person id="60" x="12.522486" y="55.673343" angle="-2.367696" speed="0.000000" pos="0.000000" edge="293588138" slope="0.000000"/>
+        <person id="41" x="12.582772" y="55.680433" angle="-163.269159" speed="0.000000" pos="0.000000" edge="332071510" slope="0.000000"/>
+        <person id="51" x="12.541092" y="55.663571" angle="-38.895883" speed="0.000000" pos="0.000000" edge="363978515#4" slope="0.000000"/>
+        <person id="59" x="12.530662" y="55.708717" angle="86.940784" speed="0.000000" pos="0.000000" edge="3666045#1" slope="0.000000"/>
+        <person id="40" x="12.473870" y="55.681810" angle="96.505627" speed="1.117549" pos="1.117549" edge="42347304" slope="0.000000"/>
+        <person id="53" x="12.602604" y="55.653894" angle="66.784189" speed="0.000000" pos="0.000000" edge="42709571#0" slope="0.000000"/>
+        <person id="29" x="12.576875" y="55.727647" angle="-102.612901" speed="1.131971" pos="36.568029" edge="57775966" slope="0.000000"/>
+    </timestep>
+    <timestep time="4.00">
+        <vehicle id="0" x="12.537419" y="55.663276" angle="-18.966962" type="DEFAULT_VEHTYPE" speed="6.766594" pos="21.787534" lane="27409327_0" slope="0.000000"/>
+        <vehicle id="1" x="12.523017" y="55.704073" angle="5.126662" type="DEFAULT_VEHTYPE" speed="1.994096" pos="13.543441" lane="52178731#0_0" slope="0.000000"/>
+        <vehicle id="10" x="12.604889" y="55.723251" angle="-112.589999" type="DEFAULT_VEHTYPE" speed="6.277401" pos="6.055931" lane="8131026#4_0" slope="0.000000"/>
+        <vehicle id="12" x="12.506931" y="55.732041" angle="-133.699923" type="DEFAULT_VEHTYPE" speed="6.229757" pos="18.531495" lane="22999401#3_0" slope="0.000000"/>
+        <vehicle id="13" x="12.487463" y="55.684526" angle="111.782698" type="DEFAULT_VEHTYPE" speed="5.321153" pos="5.231155" lane=":2584912781_3_0" slope="0.000000"/>
+        <vehicle id="14" x="12.592477" y="55.666731" angle="-63.285915" type="DEFAULT_VEHTYPE" speed="4.283020" pos="15.304622" lane="-148973670_0" slope="0.000000"/>
+        <vehicle id="15" x="12.623808" y="55.642227" angle="105.518434" type="DEFAULT_VEHTYPE" speed="2.198956" pos="11.186363" lane="294715528#0_0" slope="0.000000"/>
+        <vehicle id="17" x="12.526330" y="55.685044" angle="-24.187782" type="DEFAULT_VEHTYPE" speed="5.355188" pos="6.864263" lane="2954571#4_0" slope="0.000000"/>
+        <vehicle id="18" x="12.578794" y="55.676669" angle="121.197151" type="DEFAULT_VEHTYPE" speed="5.403734" pos="15.997690" lane="43129906#2_0" slope="0.000000"/>
+        <vehicle id="19" x="12.530233" y="55.683046" angle="67.275898" type="DEFAULT_VEHTYPE" speed="5.082008" pos="16.082631" lane="78456674#7_0" slope="0.000000"/>
+        <vehicle id="2" x="12.547903" y="55.737417" angle="67.427458" type="DEFAULT_VEHTYPE" speed="4.335308" pos="15.150509" lane="199311371_0" slope="0.000000"/>
+        <vehicle id="21" x="12.551872" y="55.717244" angle="74.857355" type="DEFAULT_VEHTYPE" speed="1.703311" pos="10.089811" lane="4314720#1_0" slope="0.000000"/>
+        <vehicle id="22" x="12.514736" y="55.639037" angle="112.924450" type="DEFAULT_VEHTYPE" speed="2.329260" pos="10.607452" lane="25928905#1_0" slope="0.000000"/>
+        <vehicle id="23" x="12.533749" y="55.643554" angle="139.856207" type="DEFAULT_VEHTYPE" speed="7.058301" pos="19.147188" lane="25916650_0" slope="0.000000"/>
+        <vehicle id="24" x="12.549750" y="55.679784" angle="64.057326" type="DEFAULT_VEHTYPE" speed="4.807069" pos="1.183686" lane=":1637789874_6_0" slope="0.000000"/>
+        <vehicle id="25" x="12.441775" y="55.682290" angle="108.703197" type="DEFAULT_VEHTYPE" speed="6.859870" pos="19.290369" lane="-26154980#13_0" slope="0.000000"/>
+        <vehicle id="26" x="12.509556" y="55.685035" angle="70.735565" type="DEFAULT_VEHTYPE" speed="4.850594" pos="16.564237" lane="152244445#0_0" slope="0.000000"/>
+        <vehicle id="27" x="12.459325" y="55.724065" angle="-85.843200" type="DEFAULT_VEHTYPE" speed="6.857598" pos="19.043045" lane="25966829#2_0" slope="0.000000"/>
+        <vehicle id="28" x="12.558339" y="55.693421" angle="-151.720080" type="DEFAULT_VEHTYPE" speed="5.059573" pos="0.621918" lane="1820412#0_0" slope="0.000000"/>
+        <vehicle id="29" x="12.489149" y="55.677502" angle="109.547432" type="DEFAULT_VEHTYPE" speed="6.098873" pos="16.837910" lane="-105577056#7_0" slope="0.000000"/>
+        <vehicle id="3" x="12.588394" y="55.632143" angle="173.664623" type="DEFAULT_VEHTYPE" speed="2.762715" pos="11.848041" lane="92967917_0" slope="0.000000"/>
+        <vehicle id="30" x="12.517055" y="55.682549" angle="-107.530922" type="DEFAULT_VEHTYPE" speed="5.544852" pos="15.754341" lane="148233539_0" slope="0.000000"/>
+        <vehicle id="32" x="12.505939" y="55.739773" angle="159.106258" type="DEFAULT_VEHTYPE" speed="6.916190" pos="18.868109" lane="11987003#2_0" slope="0.000000"/>
+        <vehicle id="33" x="12.573754" y="55.697662" angle="40.287191" type="DEFAULT_VEHTYPE" speed="4.524561" pos="1.192057" lane=":286511812_6_0" slope="0.000000"/>
+        <vehicle id="34" x="12.653181" y="55.633920" angle="-154.024876" type="DEFAULT_VEHTYPE" speed="5.004212" pos="15.030832" lane="210556034#1_0" slope="0.000000"/>
+        <vehicle id="35" x="12.464873" y="55.714287" angle="-126.023080" type="DEFAULT_VEHTYPE" speed="5.271499" pos="16.665475" lane="227916945#6_0" slope="0.000000"/>
+        <vehicle id="36" x="12.442956" y="55.662393" angle="-132.485633" type="DEFAULT_VEHTYPE" speed="6.247093" pos="5.784685" lane="-227567920#0_0" slope="0.000000"/>
+        <vehicle id="37" x="12.539302" y="55.658607" angle="-19.923228" type="DEFAULT_VEHTYPE" speed="5.467255" pos="1.763119" lane=":8087206_1_1" slope="0.000000"/>
+        <vehicle id="38" x="12.576129" y="55.670754" angle="-118.264943" type="DEFAULT_VEHTYPE" speed="4.877559" pos="14.010036" lane="45981167#1_0" slope="0.000000"/>
+        <vehicle id="39" x="12.547009" y="55.677873" angle="-114.130742" type="DEFAULT_VEHTYPE" speed="5.260550" pos="17.217950" lane="151193402_0" slope="0.000000"/>
+        <vehicle id="4" x="12.501481" y="55.715712" angle="-148.436830" type="DEFAULT_VEHTYPE" speed="4.773730" pos="14.606558" lane="119507348#1_0" slope="0.000000"/>
+        <vehicle id="40" x="12.543520" y="55.684190" angle="95.168883" type="DEFAULT_VEHTYPE" speed="4.365844" pos="0.375351" lane=":1005772869_7_0" slope="0.000000"/>
+        <vehicle id="41" x="12.530468" y="55.646495" angle="67.906579" type="DEFAULT_VEHTYPE" speed="3.566739" pos="10.381636" lane="-128468662_0" slope="0.000000"/>
+        <vehicle id="42" x="12.574830" y="55.632460" angle="-14.665643" type="DEFAULT_VEHTYPE" speed="4.413664" pos="11.368325" lane="-147476448#3_0" slope="0.000000"/>
+        <vehicle id="43" x="12.532720" y="55.668023" angle="58.220269" type="DEFAULT_VEHTYPE" speed="3.665133" pos="0.071762" lane="-150090925#1_0" slope="0.000000"/>
+        <vehicle id="44" x="12.450888" y="55.662615" angle="85.952230" type="DEFAULT_VEHTYPE" speed="3.216698" pos="9.641455" lane="118548402#4_0" slope="0.000000"/>
+        <vehicle id="45" x="12.546853" y="55.694222" angle="131.268603" type="DEFAULT_VEHTYPE" speed="4.147492" pos="11.828479" lane="115331054#0_0" slope="0.000000"/>
+        <vehicle id="47" x="12.543163" y="55.684123" angle="-32.267190" type="DEFAULT_VEHTYPE" speed="3.266989" pos="9.792615" lane="23803819#0_0" slope="0.000000"/>
+        <vehicle id="48" x="12.551592" y="55.674865" angle="67.181498" type="DEFAULT_VEHTYPE" speed="5.025306" pos="12.591566" lane="-151152175#3_0" slope="0.000000"/>
+        <vehicle id="49" x="12.505446" y="55.679340" angle="-19.447684" type="DEFAULT_VEHTYPE" speed="2.892707" pos="9.479179" lane="-154348710#0_0" slope="0.000000"/>
+        <vehicle id="5" x="12.562680" y="55.660517" angle="128.091271" type="DEFAULT_VEHTYPE" speed="4.873179" pos="14.840311" lane="143837842#0_0" slope="0.000000"/>
+        <vehicle id="50" x="12.501063" y="55.743745" angle="-80.559137" type="DEFAULT_VEHTYPE" speed="4.372847" pos="6.345349" lane=":284152752_0_0" slope="0.000000"/>
+        <vehicle id="51" x="12.604642" y="55.648208" angle="-168.637980" type="DEFAULT_VEHTYPE" speed="4.434576" pos="11.420565" lane="-8122614#8_0" slope="0.000000"/>
+        <vehicle id="53" x="12.623792" y="55.638057" angle="15.995259" type="DEFAULT_VEHTYPE" speed="3.601609" pos="10.073390" lane="-4230797_0" slope="0.000000"/>
+        <vehicle id="54" x="12.569390" y="55.702224" angle="12.087233" type="DEFAULT_VEHTYPE" speed="4.754207" pos="3.634207" lane=":1294979630_5_0" slope="0.000000"/>
+        <vehicle id="55" x="12.504470" y="55.660792" angle="12.067506" type="DEFAULT_VEHTYPE" speed="1.864552" pos="8.527209" lane="94089737#0_0" slope="0.000000"/>
+        <vehicle id="56" x="12.454397" y="55.682318" angle="95.348006" type="DEFAULT_VEHTYPE" speed="4.323235" pos="11.805479" lane="352152151#1_0" slope="0.000000"/>
+        <vehicle id="58" x="12.526474" y="55.729531" angle="11.280254" type="DEFAULT_VEHTYPE" speed="4.131289" pos="11.381707" lane="360241153_0" slope="0.000000"/>
+        <vehicle id="59" x="12.473830" y="55.664587" angle="-4.500275" type="DEFAULT_VEHTYPE" speed="4.104007" pos="10.970547" lane="-155511409#22_0" slope="0.000000"/>
+        <vehicle id="60" x="12.538530" y="55.743340" angle="54.272847" type="DEFAULT_VEHTYPE" speed="1.593356" pos="6.693356" lane="4266619#0_0" slope="0.000000"/>
+        <vehicle id="61" x="12.588096" y="55.710069" angle="-165.918032" type="DEFAULT_VEHTYPE" speed="2.536930" pos="7.636930" lane="241592084#0_0" slope="0.000000"/>
+        <vehicle id="62" x="12.595434" y="55.668480" angle="31.672120" type="DEFAULT_VEHTYPE" speed="1.405366" pos="6.505366" lane="357118527_0" slope="0.000000"/>
+        <vehicle id="63" x="12.551694" y="55.645610" angle="41.525487" type="DEFAULT_VEHTYPE" speed="1.638855" pos="6.738855" lane="25684411_0" slope="0.000000"/>
+        <vehicle id="64" x="12.527481" y="55.645907" angle="-174.131331" type="DEFAULT_VEHTYPE" speed="2.585577" pos="7.685577" lane="25913457#1_0" slope="0.000000"/>
+        <vehicle id="65" x="12.570611" y="55.714254" angle="-172.785810" type="DEFAULT_VEHTYPE" speed="1.747855" pos="6.847855" lane="1881447#1_0" slope="0.000000"/>
+        <vehicle id="66" x="12.563118" y="55.733425" angle="62.944135" type="DEFAULT_VEHTYPE" speed="2.286048" pos="7.386048" lane="-305423409#4_0" slope="0.000000"/>
+        <vehicle id="67" x="12.446500" y="55.730911" angle="-52.223152" type="DEFAULT_VEHTYPE" speed="1.835003" pos="1.835003" lane=":1598229702_1_1" slope="0.000000"/>
+        <vehicle id="68" x="12.555765" y="55.681378" angle="-122.914913" type="DEFAULT_VEHTYPE" speed="1.438315" pos="6.538315" lane="150893279_0" slope="0.000000"/>
+        <vehicle id="69" x="12.468790" y="55.744582" angle="-8.620311" type="DEFAULT_VEHTYPE" speed="2.185201" pos="7.285201" lane="-172369656_0" slope="0.000000"/>
+        <vehicle id="7" x="12.577507" y="55.714110" angle="9.210192" type="DEFAULT_VEHTYPE" speed="5.829363" pos="16.315922" lane="237099606#1_0" slope="0.000000"/>
+        <vehicle id="70" x="12.515476" y="55.740178" angle="-98.099577" type="DEFAULT_VEHTYPE" speed="1.750992" pos="6.850992" lane="-22987568#2_0" slope="0.000000"/>
+        <vehicle id="72" x="12.643572" y="55.635088" angle="-162.047411" type="DEFAULT_VEHTYPE" speed="1.307045" pos="6.407045" lane="-4374791_0" slope="0.000000"/>
+        <vehicle id="73" x="12.521669" y="55.711018" angle="-82.560050" type="DEFAULT_VEHTYPE" speed="2.135854" pos="7.235854" lane="328522072_0" slope="0.000000"/>
+        <vehicle id="74" x="12.542993" y="55.685758" angle="161.238716" type="DEFAULT_VEHTYPE" speed="2.600000" pos="7.700000" lane="-148756803#1_0" slope="0.000000"/>
+        <vehicle id="75" x="12.481248" y="55.740344" angle="-176.335369" type="DEFAULT_VEHTYPE" speed="1.408134" pos="1.118134" lane=":277275664_4_0" slope="0.000000"/>
+        <vehicle id="76" x="12.548098" y="55.725178" angle="155.917255" type="DEFAULT_VEHTYPE" speed="2.489415" pos="7.589415" lane="-48524881#1_1" slope="0.000000"/>
+        <vehicle id="8" x="12.538726" y="55.658636" angle="-91.445700" type="DEFAULT_VEHTYPE" speed="6.576469" pos="17.870907" lane="3547223#2_0" slope="0.000000"/>
+        <vehicle id="80" x="12.474671" y="55.724362" angle="134.281951" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="167040347_0" slope="0.000000"/>
+        <vehicle id="81" x="12.594257" y="55.628610" angle="99.791293" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-28104715#2_0" slope="0.000000"/>
+        <vehicle id="82" x="12.480537" y="55.692740" angle="-172.238736" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="215950313#2_0" slope="0.000000"/>
+        <vehicle id="83" x="12.567210" y="55.645054" angle="-154.570914" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="210609842#1_0" slope="0.000000"/>
+        <vehicle id="84" x="12.549344" y="55.738033" angle="-171.741767" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="90992071_0" slope="0.000000"/>
+        <vehicle id="85" x="12.531286" y="55.691042" angle="-29.143544" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="150332982#0_0" slope="0.000000"/>
+        <vehicle id="86" x="12.497417" y="55.670558" angle="-161.763502" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-151883467#8_0" slope="0.000000"/>
+        <vehicle id="87" x="12.509915" y="55.661286" angle="-85.650024" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="87398581#7_0" slope="0.000000"/>
+        <vehicle id="88" x="12.604479" y="55.662109" angle="57.593330" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="1707815#2_0" slope="0.000000"/>
+        <vehicle id="89" x="12.521918" y="55.651542" angle="-177.797539" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-3635841#4_0" slope="0.000000"/>
+        <vehicle id="9" x="12.529392" y="55.678494" angle="-12.942186" type="DEFAULT_VEHTYPE" speed="5.084807" pos="16.504489" lane="79638075_0" slope="0.000000"/>
+        <vehicle id="90" x="12.498867" y="55.632058" angle="-9.903307" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-25808568#1_0" slope="0.000000"/>
+        <vehicle id="92" x="12.621618" y="55.661463" angle="163.717167" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="4231204#0_0" slope="0.000000"/>
+        <vehicle id="93" x="12.629190" y="55.660808" angle="152.377370" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-148886130_0" slope="0.000000"/>
+        <vehicle id="94" x="12.602379" y="55.682296" angle="-28.224880" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-41833859_0" slope="0.000000"/>
+        <vehicle id="95" x="12.533334" y="55.691955" angle="60.811181" type="DEFAULT_VEHTYPE" speed="0.000000" pos="4.980000" lane="2522290#4_0" slope="0.000000"/>
+        <vehicle id="96" x="12.535786" y="55.644201" angle="139.715215" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25916612#3_0" slope="0.000000"/>
+        <vehicle id="97" x="12.597176" y="55.696420" angle="-9.973077" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="359591670_0" slope="0.000000"/>
+        <vehicle id="98" x="12.538739" y="55.681673" angle="110.938979" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="144134509#0_0" slope="0.000000"/>
+        <vehicle id="99" x="12.517002" y="55.743012" angle="147.617341" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="357527043#0_0" slope="0.000000"/>
+        <person id="7" x="12.608481" y="55.642665" angle="-81.190636" speed="1.227899" pos="2.233283" edge=":1242099798_1" slope="0.000000"/>
+        <person id="44" x="12.444933" y="55.659682" angle="21.960564" speed="1.168609" pos="0.161391" edge=":1333855418_0" slope="0.000000"/>
+        <person id="23" x="12.557079" y="55.659491" angle="175.953082" speed="1.352918" pos="6.842288" edge=":1574030619_1" slope="0.000000"/>
+        <person id="52" x="12.597681" y="55.656120" angle="-139.105099" speed="1.335966" pos="3.484034" edge=":1579437178_3" slope="0.000000"/>
+        <person id="41" x="12.582765" y="55.680444" angle="-156.801409" speed="1.203860" pos="4.416140" edge=":1617144189_0" slope="0.000000"/>
+        <person id="9" x="12.439099" y="55.742344" angle="71.916555" speed="1.169577" pos="7.100112" edge=":1783000027_1" slope="0.000000"/>
+        <person id="40" x="12.473892" y="55.681812" angle="101.748342" speed="1.345107" pos="0.162656" edge=":20943313_5" slope="0.000000"/>
+        <person id="20" x="12.441407" y="55.722633" angle="-150.727708" speed="1.258254" pos="3.419315" edge=":2314421486_1" slope="0.000000"/>
+        <person id="3" x="12.495931" y="55.739325" angle="105.720461" speed="1.357038" pos="4.842410" edge=":247948370_0" slope="0.000000"/>
+        <person id="37" x="12.573985" y="55.741974" angle="32.660913" speed="1.326117" pos="2.213258" edge=":26134375_5" slope="0.000000"/>
+        <person id="50" x="12.555079" y="55.718687" angle="78.577103" speed="1.327605" pos="8.622395" edge=":26211615_1" slope="0.000000"/>
+        <person id="36" x="12.536253" y="55.717118" angle="-102.094757" speed="1.325626" pos="2.948690" edge=":26490156_7" slope="0.000000"/>
+        <person id="42" x="12.468687" y="55.631626" angle="-157.297158" speed="1.133884" pos="8.426116" edge=":274878694_7" slope="0.000000"/>
+        <person id="13" x="12.471503" y="55.710643" angle="130.515394" speed="1.334628" pos="1.502172" edge=":278386823_1" slope="0.000000"/>
+        <person id="24" x="12.566585" y="55.726193" angle="-12.398385" speed="1.133457" pos="3.783536" edge=":285487542_1" slope="0.000000"/>
+        <person id="32" x="12.549355" y="55.690126" angle="145.479135" speed="1.299767" pos="6.972781" edge=":297902614_0" slope="0.000000"/>
+        <person id="47" x="12.492081" y="55.639724" angle="101.273623" speed="1.322662" pos="4.867338" edge=":2983016213_0" slope="0.000000"/>
+        <person id="33" x="12.508886" y="55.711561" angle="100.978883" speed="1.319305" pos="6.934257" edge=":30451764_1" slope="0.000000"/>
+        <person id="1" x="12.614626" y="55.646827" angle="-78.726277" speed="1.294762" pos="3.615147" edge=":3605963242_0" slope="0.000000"/>
+        <person id="35" x="12.636335" y="55.640342" angle="-74.411247" speed="1.152564" pos="7.177861" edge=":7427919_7" slope="0.000000"/>
+        <person id="49" x="12.495268" y="55.680820" angle="-35.972387" speed="1.365393" pos="4.974607" edge=":8078418_4" slope="0.000000"/>
+        <person id="11" x="12.500228" y="55.650577" angle="-137.548575" speed="1.259493" pos="6.692928" edge=":93029030_2" slope="0.000000"/>
+        <person id="19" x="12.470149" y="55.717842" angle="-13.956208" speed="1.388651" pos="3.798305" edge="-113112644#1" slope="0.000000"/>
+        <person id="74" x="12.626673" y="55.660925" angle="171.537109" speed="0.000000" pos="0.000000" edge="-133347854#0" slope="0.000000"/>
+        <person id="73" x="12.593053" y="55.651880" angle="162.474432" speed="0.000000" pos="0.000000" edge="-143792491#28" slope="0.000000"/>
+        <person id="63" x="12.503521" y="55.685156" angle="-20.224859" speed="0.000000" pos="0.000000" edge="-146496694#2" slope="0.000000"/>
+        <person id="21" x="12.626808" y="55.658762" angle="19.669291" speed="1.205937" pos="2.552650" edge="-148886116#0" slope="0.000000"/>
+        <person id="54" x="12.583017" y="55.700737" angle="-68.556096" speed="1.133714" pos="1.133714" edge="-174675649#0" slope="0.000000"/>
+        <person id="17" x="12.565500" y="55.713577" angle="-70.577081" speed="1.385648" pos="3.912475" edge="-1757742#5" slope="0.000000"/>
+        <person id="46" x="12.537988" y="55.682658" angle="-120.465545" speed="1.276855" pos="1.276855" edge="-1822845#5" slope="0.000000"/>
+        <person id="48" x="12.625265" y="55.643660" angle="-71.728500" speed="1.230947" pos="1.230947" edge="-1881046#2" slope="0.000000"/>
+        <person id="8" x="12.505103" y="55.672252" angle="178.188329" speed="1.253775" pos="3.778131" edge="-23177489" slope="0.000000"/>
+        <person id="4" x="12.597440" y="55.667510" angle="26.672686" speed="1.136347" pos="3.672810" edge="-237100946#5" slope="0.000000"/>
+        <person id="53" x="12.602747" y="55.653916" angle="149.281096" speed="1.262304" pos="1.262304" edge="-237111837#9" slope="0.000000"/>
+        <person id="31" x="12.472861" y="55.711722" angle="65.957361" speed="1.274484" pos="2.205565" edge="-237211374#3" slope="0.000000"/>
+        <person id="27" x="12.497775" y="55.743082" angle="-13.726826" speed="1.361749" pos="32.746923" edge="-23916467#2" slope="0.000000"/>
+        <person id="30" x="12.488768" y="55.660637" angle="85.127642" speed="1.357127" pos="2.583511" edge="-24526887#0" slope="0.000000"/>
+        <person id="66" x="12.488860" y="55.703634" angle="-124.716820" speed="0.000000" pos="0.000000" edge="-24988880#1" slope="0.000000"/>
+        <person id="5" x="12.471772" y="55.713677" angle="-21.648843" speed="1.152418" pos="3.775079" edge="-25911395#3" slope="0.000000"/>
+        <person id="78" x="12.501063" y="55.727420" angle="-11.151919" speed="0.000000" pos="0.000000" edge="-26325632#1" slope="0.000000"/>
+        <person id="26" x="12.533137" y="55.722942" angle="85.183793" speed="1.161292" pos="2.376506" edge="-27116543#9" slope="0.000000"/>
+        <person id="10" x="12.552953" y="55.680251" angle="-113.884622" speed="1.279592" pos="3.994821" edge="-29654#3" slope="0.000000"/>
+        <person id="22" x="12.582622" y="55.670666" angle="-101.967102" speed="1.112015" pos="2.494280" edge="-3643789#4" slope="0.000000"/>
+        <person id="28" x="12.555684" y="55.677530" angle="-102.747159" speed="1.253488" pos="2.613288" edge="-3735#3" slope="0.000000"/>
+        <person id="14" x="12.485182" y="55.707716" angle="53.609147" speed="1.128841" pos="3.557512" edge="-38328779#14" slope="0.000000"/>
+        <person id="38" x="12.500151" y="55.692559" angle="28.651025" speed="1.171101" pos="2.472807" edge="-3992560#2" slope="0.000000"/>
+        <person id="45" x="12.548759" y="55.704725" angle="-49.523912" speed="1.260309" pos="1.260309" edge="-4212133#1" slope="0.000000"/>
+        <person id="72" x="12.558172" y="55.736256" angle="117.204926" speed="0.000000" pos="0.000000" edge="-4238218#0" slope="0.000000"/>
+        <person id="43" x="12.577421" y="55.708375" angle="-87.931526" speed="1.180675" pos="1.180675" edge="-4320526#1" slope="0.000000"/>
+        <person id="0" x="12.534805" y="55.731783" angle="-84.046822" speed="1.154535" pos="4.815653" edge="-4360541#6" slope="0.000000"/>
+        <person id="18" x="12.531300" y="55.689244" angle="-29.102060" speed="1.296436" pos="3.907830" edge="-8122584#0" slope="0.000000"/>
+        <person id="25" x="12.586488" y="55.707994" angle="-82.582457" speed="1.331248" pos="2.583282" edge="-83348641#0" slope="0.000000"/>
+        <person id="12" x="12.545351" y="55.704729" angle="-142.518038" speed="1.346293" pos="3.881234" edge="-83872621#0" slope="0.000000"/>
+        <person id="76" x="12.461048" y="55.702862" angle="-20.481386" speed="0.000000" pos="0.000000" edge="103071570#0" slope="0.000000"/>
+        <person id="56" x="12.497822" y="55.685543" angle="38.810778" speed="1.264853" pos="1.264853" edge="113551030" slope="0.000000"/>
+        <person id="80" x="12.443010" y="55.658824" angle="32.660913" speed="0.000000" pos="0.000000" edge="115559551#0" slope="0.000000"/>
+        <person id="67" x="12.457961" y="55.674901" angle="26.235137" speed="0.000000" pos="0.000000" edge="122816156#0" slope="0.000000"/>
+        <person id="70" x="12.539428" y="55.725199" angle="-68.483386" speed="0.000000" pos="0.000000" edge="123842571" slope="0.000000"/>
+        <person id="65" x="12.516887" y="55.684572" angle="158.630976" speed="0.000000" pos="0.000000" edge="143711994#1" slope="0.000000"/>
+        <person id="15" x="12.646643" y="55.648681" angle="39.047727" speed="1.299048" pos="4.007164" edge="153338051" slope="0.000000"/>
+        <person id="71" x="12.598259" y="55.653590" angle="-104.664058" speed="0.000000" pos="0.000000" edge="169082046#1" slope="0.000000"/>
+        <person id="61" x="12.596252" y="55.654363" angle="-15.203294" speed="0.000000" pos="0.000000" edge="169082132#2" slope="0.000000"/>
+        <person id="69" x="12.592092" y="55.688456" angle="32.188949" speed="0.000000" pos="0.000000" edge="169215060#0" slope="0.000000"/>
+        <person id="57" x="12.548236" y="55.738876" angle="-54.905441" speed="1.188016" pos="1.188016" edge="218726953#0" slope="0.000000"/>
+        <person id="6" x="12.503408" y="55.678368" angle="98.769062" speed="1.265389" pos="3.924233" edge="220270796#0" slope="0.000000"/>
+        <person id="75" x="12.554360" y="55.699088" angle="-36.641932" speed="0.000000" pos="0.000000" edge="237236396#0" slope="0.000000"/>
+        <person id="39" x="12.538667" y="55.700682" angle="-133.546105" speed="1.230672" pos="8.701305" edge="237344069#1" slope="0.000000"/>
+        <person id="55" x="12.547199" y="55.685400" angle="-114.882839" speed="1.127582" pos="1.127582" edge="237352565#3" slope="0.000000"/>
+        <person id="79" x="12.496556" y="55.702175" angle="-4.219049" speed="0.000000" pos="0.000000" edge="24988800#0" slope="0.000000"/>
+        <person id="51" x="12.541113" y="55.663509" angle="39.004613" speed="1.355714" pos="1.355714" edge="255403866" slope="0.000000"/>
+        <person id="2" x="12.461541" y="55.714296" angle="178.850001" speed="1.379269" pos="55.540818" edge="25935717#0" slope="0.000000"/>
+        <person id="16" x="12.540561" y="55.714781" angle="-58.630142" speed="1.287081" pos="3.844869" edge="26284017#0" slope="0.000000"/>
+        <person id="64" x="12.563599" y="55.675876" angle="-135.770749" speed="0.000000" pos="0.000000" edge="27256158#11" slope="0.000000"/>
+        <person id="60" x="12.522485" y="55.673332" angle="-2.657391" speed="1.183034" pos="1.186966" edge="293588134" slope="0.000000"/>
+        <person id="77" x="12.547309" y="55.737383" angle="66.037511" speed="0.000000" pos="0.000000" edge="296557772#3" slope="0.000000"/>
+        <person id="59" x="12.530681" y="55.708717" angle="86.940784" speed="1.166182" pos="1.166182" edge="3666045#1" slope="0.000000"/>
+        <person id="68" x="12.559539" y="55.723631" angle="55.719782" speed="0.000000" pos="0.000000" edge="3993652#2" slope="0.000000"/>
+        <person id="29" x="12.576853" y="55.727649" angle="-102.612901" speed="1.386852" pos="35.181178" edge="57775966" slope="0.000000"/>
+    </timestep>
+    <timestep time="5.00">
+        <vehicle id="0" x="12.537379" y="55.663202" angle="-18.966962" type="DEFAULT_VEHTYPE" speed="8.565763" pos="30.353297" lane="27409327_0" slope="0.000000"/>
+        <vehicle id="1" x="12.523022" y="55.704048" angle="5.126662" type="DEFAULT_VEHTYPE" speed="2.773300" pos="16.316742" lane="52178731#0_0" slope="0.000000"/>
+        <vehicle id="10" x="12.604763" y="55.723278" angle="-112.589999" type="DEFAULT_VEHTYPE" speed="8.443553" pos="14.499484" lane="8131026#4_0" slope="0.000000"/>
+        <vehicle id="100" x="12.622855" y="55.661421" angle="91.421492" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="237092572#8_0" slope="0.000000"/>
+        <vehicle id="101" x="12.584920" y="55.698377" angle="-160.125865" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-157997444#0_0" slope="0.000000"/>
+        <vehicle id="102" x="12.544739" y="55.706665" angle="-45.916351" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-38503789_0" slope="0.000000"/>
+        <vehicle id="103" x="12.596615" y="55.671399" angle="-63.131532" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="143330826#1_0" slope="0.000000"/>
+        <vehicle id="104" x="12.484444" y="55.661745" angle="-172.642764" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-91602361#2_0" slope="0.000000"/>
+        <vehicle id="106" x="12.540008" y="55.681714" angle="-71.867954" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="155476387#2_0" slope="0.000000"/>
+        <vehicle id="107" x="12.623029" y="55.663470" angle="23.473520" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-237365314#1_0" slope="0.000000"/>
+        <vehicle id="108" x="12.584984" y="55.641852" angle="76.171975" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-140902144_0" slope="0.000000"/>
+        <vehicle id="109" x="12.592642" y="55.628653" angle="96.585444" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="4091864_0" slope="0.000000"/>
+        <vehicle id="110" x="12.474814" y="55.711054" angle="-23.281478" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-25543979#8_0" slope="0.000000"/>
+        <vehicle id="111" x="12.439051" y="55.710077" angle="103.051335" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-242313926_0" slope="0.000000"/>
+        <vehicle id="112" x="12.494460" y="55.647081" angle="37.090103" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="26927690#11_0" slope="0.000000"/>
+        <vehicle id="113" x="12.541712" y="55.714093" angle="32.366638" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="191606424#6_0" slope="0.000000"/>
+        <vehicle id="115" x="12.468626" y="55.714287" angle="-15.573515" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-230553721#4_0" slope="0.000000"/>
+        <vehicle id="116" x="12.554830" y="55.658091" angle="-32.275644" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="197668195_0" slope="0.000000"/>
+        <vehicle id="117" x="12.626946" y="55.661240" angle="-167.566153" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="133347682#4_0" slope="0.000000"/>
+        <vehicle id="118" x="12.601597" y="55.670866" angle="-54.636977" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-109096946#0_0" slope="0.000000"/>
+        <vehicle id="119" x="12.611221" y="55.640691" angle="10.572970" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="2058697#0_0" slope="0.000000"/>
+        <vehicle id="12" x="12.506827" y="55.732094" angle="-133.699923" type="DEFAULT_VEHTYPE" speed="8.777888" pos="27.309383" lane="22999401#3_0" slope="0.000000"/>
+        <vehicle id="13" x="12.487573" y="55.684549" angle="108.822628" type="DEFAULT_VEHTYPE" speed="7.376260" pos="6.927415" lane="2860760#6_0" slope="0.000000"/>
+        <vehicle id="14" x="12.592450" y="55.666695" angle="-24.789123" type="DEFAULT_VEHTYPE" speed="4.427393" pos="19.732015" lane="-148973670_0" slope="0.000000"/>
+        <vehicle id="15" x="12.623837" y="55.642232" angle="105.518434" type="DEFAULT_VEHTYPE" speed="1.942486" pos="13.128849" lane="294715528#0_0" slope="0.000000"/>
+        <vehicle id="17" x="12.526283" y="55.684979" angle="-24.187782" type="DEFAULT_VEHTYPE" speed="7.788647" pos="14.652910" lane="2954571#4_0" slope="0.000000"/>
+        <vehicle id="18" x="12.578888" y="55.676704" angle="121.197151" type="DEFAULT_VEHTYPE" speed="7.027802" pos="23.025493" lane="43129906#2_0" slope="0.000000"/>
+        <vehicle id="19" x="12.530332" y="55.683025" angle="67.275898" type="DEFAULT_VEHTYPE" speed="6.657464" pos="22.740095" lane="78456674#7_0" slope="0.000000"/>
+        <vehicle id="2" x="12.547986" y="55.737410" angle="80.402695" type="DEFAULT_VEHTYPE" speed="5.404919" pos="20.555428" lane="199311371_0" slope="0.000000"/>
+        <vehicle id="21" x="12.551905" y="55.717240" angle="74.857355" type="DEFAULT_VEHTYPE" speed="2.092757" pos="12.182568" lane="4314720#1_0" slope="0.000000"/>
+        <vehicle id="22" x="12.514758" y="55.639043" angle="112.924450" type="DEFAULT_VEHTYPE" speed="1.517409" pos="12.124862" lane="25928905#1_0" slope="0.000000"/>
+        <vehicle id="23" x="12.533843" y="55.643622" angle="139.856207" type="DEFAULT_VEHTYPE" speed="9.590114" pos="28.737302" lane="25916650_0" slope="0.000000"/>
+        <vehicle id="24" x="12.549761" y="55.679747" angle="11.711827" type="DEFAULT_VEHTYPE" speed="4.630993" pos="0.684679" lane="150915683#1_0" slope="0.000000"/>
+        <vehicle id="25" x="12.441901" y="55.682317" angle="108.703197" type="DEFAULT_VEHTYPE" speed="8.507511" pos="27.797879" lane="-26154980#13_0" slope="0.000000"/>
+        <vehicle id="26" x="12.509627" y="55.685011" angle="54.861542" type="DEFAULT_VEHTYPE" speed="5.541392" pos="3.095630" lane=":1650710022_6_0" slope="0.000000"/>
+        <vehicle id="27" x="12.459195" y="55.724057" angle="-85.843200" type="DEFAULT_VEHTYPE" speed="8.221783" pos="27.264828" lane="25966829#2_0" slope="0.000000"/>
+        <vehicle id="28" x="12.558345" y="55.693479" angle="174.251532" type="DEFAULT_VEHTYPE" speed="6.460712" pos="7.082630" lane="1820412#0_0" slope="0.000000"/>
+        <vehicle id="29" x="12.489267" y="55.677529" angle="109.911932" type="DEFAULT_VEHTYPE" speed="7.996528" pos="3.824438" lane=":578847354_3_0" slope="0.000000"/>
+        <vehicle id="3" x="12.588396" y="55.632163" angle="173.664623" type="DEFAULT_VEHTYPE" speed="2.228519" pos="14.076560" lane="92967917_0" slope="0.000000"/>
+        <vehicle id="30" x="12.516972" y="55.682562" angle="-107.530922" type="DEFAULT_VEHTYPE" speed="5.369678" pos="21.124019" lane="148233539_0" slope="0.000000"/>
+        <vehicle id="32" x="12.505982" y="55.739851" angle="161.544923" type="DEFAULT_VEHTYPE" speed="9.088351" pos="27.956460" lane="11987003#2_0" slope="0.000000"/>
+        <vehicle id="33" x="12.573715" y="55.697616" angle="-37.250119" type="DEFAULT_VEHTYPE" speed="6.256255" pos="2.428312" lane="334300303#3_0" slope="0.000000"/>
+        <vehicle id="34" x="12.653132" y="55.633972" angle="-154.024876" type="DEFAULT_VEHTYPE" speed="6.614482" pos="21.645314" lane="210556034#1_0" slope="0.000000"/>
+        <vehicle id="35" x="12.464814" y="55.714310" angle="-126.284314" type="DEFAULT_VEHTYPE" speed="4.504429" pos="21.169904" lane="227916945#6_0" slope="0.000000"/>
+        <vehicle id="36" x="12.442850" y="55.662424" angle="-113.738818" type="DEFAULT_VEHTYPE" speed="7.599562" pos="4.394247" lane=":1333855425_2_0" slope="0.000000"/>
+        <vehicle id="37" x="12.539268" y="55.658545" angle="-19.626562" type="DEFAULT_VEHTYPE" speed="7.241114" pos="2.774233" lane="26482048#5_1" slope="0.000000"/>
+        <vehicle id="38" x="12.576026" y="55.670783" angle="-118.264943" type="DEFAULT_VEHTYPE" speed="7.205518" pos="21.215554" lane="45981167#1_0" slope="0.000000"/>
+        <vehicle id="39" x="12.546937" y="55.677888" angle="-112.755941" type="DEFAULT_VEHTYPE" speed="4.818755" pos="2.256704" lane=":1640190063_4_0" slope="0.000000"/>
+        <vehicle id="4" x="12.501422" y="55.715763" angle="-148.436830" type="DEFAULT_VEHTYPE" speed="6.701215" pos="21.307773" lane="119507348#1_0" slope="0.000000"/>
+        <vehicle id="40" x="12.543450" y="55.684217" angle="-121.432862" type="DEFAULT_VEHTYPE" speed="5.764188" pos="3.729539" lane="146459058#1_0" slope="0.000000"/>
+        <vehicle id="41" x="12.530542" y="55.646478" angle="65.698685" type="DEFAULT_VEHTYPE" speed="5.004386" pos="15.386022" lane="-128468662_0" slope="0.000000"/>
+        <vehicle id="42" x="12.574808" y="55.632404" angle="-14.665643" type="DEFAULT_VEHTYPE" speed="6.338958" pos="17.707282" lane="-147476448#3_0" slope="0.000000"/>
+        <vehicle id="43" x="12.532723" y="55.668060" angle="168.375979" type="DEFAULT_VEHTYPE" speed="4.306190" pos="4.377952" lane="-150090925#1_0" slope="0.000000"/>
+        <vehicle id="44" x="12.450978" y="55.662613" angle="85.952230" type="DEFAULT_VEHTYPE" speed="5.709447" pos="15.350902" lane="118548402#4_0" slope="0.000000"/>
+        <vehicle id="45" x="12.546902" y="55.694249" angle="131.268603" type="DEFAULT_VEHTYPE" speed="4.270345" pos="16.098824" lane="115331054#0_0" slope="0.000000"/>
+        <vehicle id="47" x="12.543119" y="55.684080" angle="-32.267190" type="DEFAULT_VEHTYPE" speed="5.530169" pos="15.322784" lane="23803819#0_0" slope="0.000000"/>
+        <vehicle id="48" x="12.551664" y="55.674849" angle="67.181498" type="DEFAULT_VEHTYPE" speed="4.879846" pos="17.471413" lane="-151152175#3_0" slope="0.000000"/>
+        <vehicle id="49" x="12.505423" y="55.679299" angle="-19.447684" type="DEFAULT_VEHTYPE" speed="4.785132" pos="14.264311" lane="-154348710#0_0" slope="0.000000"/>
+        <vehicle id="5" x="12.562734" y="55.660543" angle="128.091271" type="DEFAULT_VEHTYPE" speed="4.461300" pos="19.301611" lane="143837842#0_0" slope="0.000000"/>
+        <vehicle id="50" x="12.500966" y="55.743737" angle="-84.183859" type="DEFAULT_VEHTYPE" speed="6.176262" pos="3.741611" lane="237352556#16_0" slope="0.000000"/>
+        <vehicle id="51" x="12.604619" y="55.648263" angle="-168.637980" type="DEFAULT_VEHTYPE" speed="6.312431" pos="17.732996" lane="-8122614#8_0" slope="0.000000"/>
+        <vehicle id="53" x="12.623820" y="55.638009" angle="15.995259" type="DEFAULT_VEHTYPE" speed="5.648610" pos="15.722000" lane="-4230797_0" slope="0.000000"/>
+        <vehicle id="54" x="12.569439" y="55.702251" angle="127.543380" type="DEFAULT_VEHTYPE" speed="4.425352" pos="3.419558" lane="4204572#3_0" slope="0.000000"/>
+        <vehicle id="55" x="12.504476" y="55.660779" angle="12.067506" type="DEFAULT_VEHTYPE" speed="1.564964" pos="10.092174" lane="94089737#0_0" slope="0.000000"/>
+        <vehicle id="56" x="12.454480" y="55.682324" angle="95.348006" type="DEFAULT_VEHTYPE" speed="5.256142" pos="17.061621" lane="352152151#1_0" slope="0.000000"/>
+        <vehicle id="58" x="12.526490" y="55.729493" angle="11.280254" type="DEFAULT_VEHTYPE" speed="4.354433" pos="15.736140" lane="360241153_0" slope="0.000000"/>
+        <vehicle id="59" x="12.473830" y="55.664534" angle="-1.384298" type="DEFAULT_VEHTYPE" speed="5.939058" pos="0.479605" lane=":3708956554_2_0" slope="0.000000"/>
+        <vehicle id="60" x="12.538570" y="55.743316" angle="42.071102" type="DEFAULT_VEHTYPE" speed="3.687954" pos="3.501311" lane=":25614559_6_0" slope="0.000000"/>
+        <vehicle id="61" x="12.588075" y="55.710112" angle="-165.918032" type="DEFAULT_VEHTYPE" speed="4.889507" pos="12.526437" lane="241592084#0_0" slope="0.000000"/>
+        <vehicle id="62" x="12.595442" y="55.668473" angle="31.672120" type="DEFAULT_VEHTYPE" speed="0.951225" pos="7.456592" lane="357118527_0" slope="0.000000"/>
+        <vehicle id="63" x="12.551737" y="55.645584" angle="41.525487" type="DEFAULT_VEHTYPE" speed="3.918520" pos="10.657375" lane="25684411_0" slope="0.000000"/>
+        <vehicle id="64" x="12.527471" y="55.645942" angle="-172.555638" type="DEFAULT_VEHTYPE" speed="3.943301" pos="11.628878" lane="25913457#1_0" slope="0.000000"/>
+        <vehicle id="65" x="12.570601" y="55.714289" angle="-172.785810" type="DEFAULT_VEHTYPE" speed="3.978224" pos="10.826078" lane="1881447#1_0" slope="0.000000"/>
+        <vehicle id="66" x="12.563173" y="55.733410" angle="62.944135" type="DEFAULT_VEHTYPE" speed="3.832145" pos="11.218193" lane="-305423409#4_0" slope="0.000000"/>
+        <vehicle id="67" x="12.446461" y="55.730893" angle="-52.223152" type="DEFAULT_VEHTYPE" speed="3.147586" pos="4.982589" lane=":1598229702_1_1" slope="0.000000"/>
+        <vehicle id="68" x="12.555726" y="55.681391" angle="-122.914913" type="DEFAULT_VEHTYPE" speed="2.918739" pos="9.457054" lane="150893279_0" slope="0.000000"/>
+        <vehicle id="69" x="12.468782" y="55.744540" angle="-8.620311" type="DEFAULT_VEHTYPE" speed="4.698837" pos="11.984038" lane="-172369656_0" slope="0.000000"/>
+        <vehicle id="7" x="12.577518" y="55.714036" angle="-0.456460" type="DEFAULT_VEHTYPE" speed="8.247713" pos="2.943635" lane="30473724#0_0" slope="0.000000"/>
+        <vehicle id="70" x="12.515414" y="55.740182" angle="-98.099577" type="DEFAULT_VEHTYPE" speed="3.967158" pos="10.818149" lane="-22987568#2_0" slope="0.000000"/>
+        <vehicle id="72" x="12.643552" y="55.635120" angle="-162.047411" type="DEFAULT_VEHTYPE" speed="3.765206" pos="10.172251" lane="-4374791_0" slope="0.000000"/>
+        <vehicle id="73" x="12.521613" y="55.711012" angle="-82.560050" type="DEFAULT_VEHTYPE" speed="3.608685" pos="10.844539" lane="328522072_0" slope="0.000000"/>
+        <vehicle id="74" x="12.542942" y="55.685767" angle="-108.989976" type="DEFAULT_VEHTYPE" speed="4.973580" pos="0.083580" lane="148756803#1_0" slope="0.000000"/>
+        <vehicle id="75" x="12.481223" y="55.740376" angle="-160.310408" type="DEFAULT_VEHTYPE" speed="3.901214" pos="5.019347" lane=":277275664_4_0" slope="0.000000"/>
+        <vehicle id="76" x="12.548122" y="55.725212" angle="155.917255" type="DEFAULT_VEHTYPE" speed="3.976479" pos="11.565894" lane="-48524881#1_1" slope="0.000000"/>
+        <vehicle id="8" x="12.538594" y="55.658635" angle="-91.445700" type="DEFAULT_VEHTYPE" speed="8.300319" pos="26.171226" lane="3547223#2_0" slope="0.000000"/>
+        <vehicle id="80" x="12.474692" y="55.724374" angle="134.281951" type="DEFAULT_VEHTYPE" speed="1.835421" pos="6.935421" lane="167040347_0" slope="0.000000"/>
+        <vehicle id="81" x="12.594289" y="55.628614" angle="99.791293" type="DEFAULT_VEHTYPE" speed="2.050040" pos="7.150040" lane="-28104715#2_0" slope="0.000000"/>
+        <vehicle id="82" x="12.480531" y="55.692760" angle="-172.238736" type="DEFAULT_VEHTYPE" speed="2.298868" pos="7.398868" lane="215950313#2_0" slope="0.000000"/>
+        <vehicle id="83" x="12.567195" y="55.645070" angle="-154.570914" type="DEFAULT_VEHTYPE" speed="1.965895" pos="7.065895" lane="210609842#1_0" slope="0.000000"/>
+        <vehicle id="84" x="12.549338" y="55.738052" angle="-171.741767" type="DEFAULT_VEHTYPE" speed="2.159526" pos="7.259526" lane="90992071_0" slope="0.000000"/>
+        <vehicle id="85" x="12.531271" y="55.691026" angle="-29.386102" type="DEFAULT_VEHTYPE" speed="2.022639" pos="7.122639" lane="150332982#0_0" slope="0.000000"/>
+        <vehicle id="86" x="12.497407" y="55.670577" angle="-163.641382" type="DEFAULT_VEHTYPE" speed="2.222504" pos="7.322504" lane="-151883467#8_0" slope="0.000000"/>
+        <vehicle id="87" x="12.509892" y="55.661285" angle="-85.650024" type="DEFAULT_VEHTYPE" speed="1.470751" pos="6.570751" lane="87398581#7_0" slope="0.000000"/>
+        <vehicle id="88" x="12.604509" y="55.662099" angle="57.593330" type="DEFAULT_VEHTYPE" speed="2.199042" pos="7.299042" lane="1707815#2_0" slope="0.000000"/>
+        <vehicle id="89" x="12.521916" y="55.651553" angle="-177.797539" type="DEFAULT_VEHTYPE" speed="1.320258" pos="6.420258" lane="-3635841#4_0" slope="0.000000"/>
+        <vehicle id="9" x="12.529378" y="55.678454" angle="-12.942186" type="DEFAULT_VEHTYPE" speed="4.503190" pos="21.007679" lane="79638075_0" slope="0.000000"/>
+        <vehicle id="90" x="12.498864" y="55.632044" angle="-9.903307" type="DEFAULT_VEHTYPE" speed="1.585679" pos="6.685679" lane="-25808568#1_0" slope="0.000000"/>
+        <vehicle id="92" x="12.621624" y="55.661476" angle="163.717167" type="DEFAULT_VEHTYPE" speed="1.475561" pos="6.575561" lane="4231204#0_0" slope="0.000000"/>
+        <vehicle id="93" x="12.629206" y="55.660827" angle="152.377370" type="DEFAULT_VEHTYPE" speed="2.347324" pos="7.447324" lane="-148886130_0" slope="0.000000"/>
+        <vehicle id="94" x="12.602363" y="55.682277" angle="-28.224880" type="DEFAULT_VEHTYPE" speed="2.297136" pos="7.397136" lane="-41833859_0" slope="0.000000"/>
+        <vehicle id="95" x="12.533356" y="55.691948" angle="60.796633" type="DEFAULT_VEHTYPE" speed="1.549682" pos="1.549682" lane=":1662629707_7_0" slope="0.000000"/>
+        <vehicle id="96" x="12.535811" y="55.644220" angle="139.715215" type="DEFAULT_VEHTYPE" speed="2.600000" pos="7.700000" lane="25916612#3_0" slope="0.000000"/>
+        <vehicle id="97" x="12.597172" y="55.696401" angle="-9.973077" type="DEFAULT_VEHTYPE" speed="2.081620" pos="7.181620" lane="359591670_0" slope="0.000000"/>
+        <vehicle id="98" x="12.538776" y="55.681678" angle="104.711053" type="DEFAULT_VEHTYPE" speed="2.389126" pos="7.489126" lane="144134509#0_0" slope="0.000000"/>
+        <vehicle id="99" x="12.517020" y="55.743026" angle="145.881884" type="DEFAULT_VEHTYPE" speed="1.922202" pos="1.062202" lane=":3658061650_6_0" slope="0.000000"/>
+        <person id="70" x="12.539410" y="55.725195" angle="-65.684080" speed="1.144049" pos="5.195951" edge=":1054568832_0" slope="0.000000"/>
+        <person id="7" x="12.608461" y="55.642663" angle="-81.190636" speed="1.238787" pos="0.994497" edge=":1242099798_1" slope="0.000000"/>
+        <person id="8" x="12.505155" y="55.672270" angle="85.479608" speed="1.322058" pos="3.909811" edge=":1262273541_1" slope="0.000000"/>
+        <person id="73" x="12.593057" y="55.651891" angle="165.873313" speed="1.156377" pos="4.983623" edge=":1573491374_1" slope="0.000000"/>
+        <person id="23" x="12.557080" y="55.659501" angle="175.953082" speed="1.193158" pos="5.649129" edge=":1574030619_1" slope="0.000000"/>
+        <person id="52" x="12.597678" y="55.656115" angle="138.106027" speed="1.141011" pos="2.343023" edge=":1579437178_3" slope="0.000000"/>
+        <person id="41" x="12.582751" y="55.680458" angle="-136.847610" speed="1.327657" pos="3.088484" edge=":1617144189_0" slope="0.000000"/>
+        <person id="46" x="12.537962" y="55.682673" angle="-121.006026" speed="1.208343" pos="2.285198" edge=":1621365141_0" slope="0.000000"/>
+        <person id="9" x="12.439117" y="55.742342" angle="71.916555" speed="1.177342" pos="5.922769" edge=":1783000027_1" slope="0.000000"/>
+        <person id="61" x="12.596245" y="55.654354" angle="-24.092020" speed="1.244298" pos="3.835702" edge=":1802532421_1" slope="0.000000"/>
+        <person id="71" x="12.598238" y="55.653593" angle="-104.663626" speed="1.355676" pos="4.844324" edge=":1802540378_1" slope="0.000000"/>
+        <person id="40" x="12.473910" y="55.681814" angle="101.748342" speed="1.183272" pos="1.345928" edge=":20943313_5" slope="0.000000"/>
+        <person id="20" x="12.441397" y="55.722642" angle="-150.727708" speed="1.167179" pos="4.586493" edge=":2314421486_1" slope="0.000000"/>
+        <person id="3" x="12.495948" y="55.739328" angle="105.720461" speed="1.138968" pos="3.703441" edge=":247948370_0" slope="0.000000"/>
+        <person id="72" x="12.558176" y="55.736253" angle="-29.315886" speed="1.118171" pos="0.911829" edge=":25306367_5" slope="0.000000"/>
+        <person id="37" x="12.573989" y="55.741970" angle="3.094058" speed="1.223325" pos="0.989933" edge=":26134375_5" slope="0.000000"/>
+        <person id="50" x="12.555099" y="55.718685" angle="78.577103" speed="1.316299" pos="7.306096" edge=":26211615_1" slope="0.000000"/>
+        <person id="36" x="12.536234" y="55.717120" angle="-102.094757" speed="1.200275" pos="1.748416" edge=":26490156_7" slope="0.000000"/>
+        <person id="75" x="12.554350" y="55.699080" angle="-36.792784" speed="1.151606" pos="8.908394" edge=":269598219_1" slope="0.000000"/>
+        <person id="79" x="12.496534" y="55.702104" angle="-24.258412" speed="1.269511" pos="3.320489" edge=":271649817_7" slope="0.000000"/>
+        <person id="66" x="12.488841" y="55.703639" angle="-116.381411" speed="1.138701" pos="3.911299" edge=":271651546_6" slope="0.000000"/>
+        <person id="67" x="12.457979" y="55.674888" angle="49.166505" speed="1.372149" pos="3.107851" edge=":272492186_0" slope="0.000000"/>
+        <person id="42" x="12.468678" y="55.631636" angle="-157.297158" speed="1.283155" pos="7.142960" edge=":274878694_7" slope="0.000000"/>
+        <person id="13" x="12.471516" y="55.710650" angle="130.515394" speed="1.162275" pos="0.339897" edge=":278386823_1" slope="0.000000"/>
+        <person id="24" x="12.566581" y="55.726181" angle="-12.398385" speed="1.347372" pos="2.436164" edge=":285487542_1" slope="0.000000"/>
+        <person id="32" x="12.549366" y="55.690136" angle="145.479135" speed="1.312703" pos="5.660078" edge=":297902614_0" slope="0.000000"/>
+        <person id="47" x="12.492101" y="55.639726" angle="101.273623" speed="1.246508" pos="3.620830" edge=":2983016213_0" slope="0.000000"/>
+        <person id="33" x="12.508907" y="55.711564" angle="100.978883" speed="1.357642" pos="5.576615" edge=":30451764_1" slope="0.000000"/>
+        <person id="63" x="12.503514" y="55.685145" angle="-21.501434" speed="1.278694" pos="1.078694" edge=":3198567188_0" slope="0.000000"/>
+        <person id="1" x="12.614604" y="55.646825" angle="-78.726277" speed="1.381494" pos="4.996641" edge=":3605963242_0" slope="0.000000"/>
+        <person id="35" x="12.636314" y="55.640338" angle="-74.411247" speed="1.365624" pos="5.812238" edge=":7427919_7" slope="0.000000"/>
+        <person id="49" x="12.495260" y="55.680804" angle="-11.148990" speed="1.366062" pos="3.608545" edge=":8078418_4" slope="0.000000"/>
+        <person id="11" x="12.500213" y="55.650585" angle="-137.548575" speed="1.332575" pos="5.360352" edge=":93029030_2" slope="0.000000"/>
+        <person id="19" x="12.470145" y="55.717832" angle="-13.956208" speed="1.228759" pos="5.027064" edge="-113112644#1" slope="0.000000"/>
+        <person id="96" x="12.532325" y="55.669916" angle="177.137595" speed="0.000000" pos="0.000000" edge="-11567607#4" slope="0.000000"/>
+        <person id="74" x="12.626675" y="55.660937" angle="171.537109" speed="1.258756" pos="1.258756" edge="-133347854#0" slope="0.000000"/>
+        <person id="21" x="12.626815" y="55.658751" angle="19.669291" speed="1.337859" pos="3.890509" edge="-148886116#0" slope="0.000000"/>
+        <person id="54" x="12.582999" y="55.700732" angle="-68.556096" speed="1.241817" pos="2.375532" edge="-174675649#0" slope="0.000000"/>
+        <person id="17" x="12.565483" y="55.713573" angle="-70.577081" speed="1.154662" pos="5.067137" edge="-1757742#5" slope="0.000000"/>
+        <person id="48" x="12.625248" y="55.643656" angle="-71.728500" speed="1.131716" pos="2.362663" edge="-1881046#2" slope="0.000000"/>
+        <person id="4" x="12.597449" y="55.667501" angle="26.672686" speed="1.139927" pos="4.812737" edge="-237100946#5" slope="0.000000"/>
+        <person id="53" x="12.602756" y="55.653926" angle="149.281096" speed="1.248250" pos="2.510554" edge="-237111837#9" slope="0.000000"/>
+        <person id="31" x="12.472880" y="55.711718" angle="65.957361" speed="1.275886" pos="3.481451" edge="-237211374#3" slope="0.000000"/>
+        <person id="27" x="12.497771" y="55.743071" angle="-13.726826" speed="1.271431" pos="31.475492" edge="-23916467#2" slope="0.000000"/>
+        <person id="30" x="12.488789" y="55.660637" angle="85.127642" speed="1.304703" pos="3.888215" edge="-24526887#0" slope="0.000000"/>
+        <person id="5" x="12.471766" y="55.713668" angle="-21.648843" speed="1.138592" pos="4.913671" edge="-25911395#3" slope="0.000000"/>
+        <person id="78" x="12.501060" y="55.727410" angle="-11.151919" speed="1.123854" pos="1.123854" edge="-26325632#1" slope="0.000000"/>
+        <person id="26" x="12.533156" y="55.722941" angle="85.183793" speed="1.196311" pos="3.572817" edge="-27116543#9" slope="0.000000"/>
+        <person id="10" x="12.552935" y="55.680255" angle="-113.884622" speed="1.230443" pos="5.225264" edge="-29654#3" slope="0.000000"/>
+        <person id="77" x="12.547455" y="55.737322" angle="64.454456" speed="1.129072" pos="1.129072" edge="-296557772#2" slope="0.000000"/>
+        <person id="28" x="12.555666" y="55.677532" angle="-102.747159" speed="1.118208" pos="3.731496" edge="-3735#3" slope="0.000000"/>
+        <person id="14" x="12.485197" y="55.707711" angle="53.609147" speed="1.136800" pos="4.694311" edge="-38328779#14" slope="0.000000"/>
+        <person id="94" x="12.506920" y="55.686217" angle="15.616830" speed="0.000000" pos="0.000000" edge="-3992331#1" slope="0.000000"/>
+        <person id="38" x="12.500160" y="55.692550" angle="28.651025" speed="1.169448" pos="3.642255" edge="-3992560#2" slope="0.000000"/>
+        <person id="68" x="12.559609" y="55.723575" angle="52.275005" speed="1.119216" pos="1.119216" edge="-3993652#1" slope="0.000000"/>
+        <person id="45" x="12.548744" y="55.704718" angle="-49.523912" speed="1.221033" pos="2.481343" edge="-4212133#1" slope="0.000000"/>
+        <person id="43" x="12.577399" y="55.708374" angle="-87.931526" speed="1.384331" pos="2.565006" edge="-4320526#1" slope="0.000000"/>
+        <person id="0" x="12.534785" y="55.731781" angle="-84.046822" speed="1.270071" pos="6.085723" edge="-4360541#6" slope="0.000000"/>
+        <person id="18" x="12.531292" y="55.689235" angle="-29.102060" speed="1.122874" pos="5.030704" edge="-8122584#0" slope="0.000000"/>
+        <person id="25" x="12.586470" y="55.707992" angle="-82.582457" speed="1.141472" pos="3.724754" edge="-83348641#0" slope="0.000000"/>
+        <person id="12" x="12.545348" y="55.704731" angle="-142.518038" speed="0.290066" pos="4.171300" edge="-83872621#0" slope="0.000000"/>
+        <person id="82" x="12.551566" y="55.659893" angle="4.484606" speed="0.000000" pos="0.000000" edge="-90625885#7" slope="0.000000"/>
+        <person id="76" x="12.461041" y="55.702851" angle="-20.481386" speed="1.367108" pos="1.367108" edge="103071570#0" slope="0.000000"/>
+        <person id="56" x="12.497834" y="55.685536" angle="38.810778" speed="1.152122" pos="2.416974" edge="113551030" slope="0.000000"/>
+        <person id="99" x="12.503940" y="55.660733" angle="-171.503405" speed="0.000000" pos="0.000000" edge="114953071#0" slope="0.000000"/>
+        <person id="80" x="12.443021" y="55.658814" angle="32.660913" speed="1.291967" pos="1.291967" edge="115559551#0" slope="0.000000"/>
+        <person id="44" x="12.444974" y="55.659678" angle="122.905243" speed="1.199245" pos="0.837854" edge="118631099#1" slope="0.000000"/>
+        <person id="65" x="12.516933" y="55.684593" angle="69.775141" speed="1.241515" pos="1.241515" edge="143707153#4" slope="0.000000"/>
+        <person id="15" x="12.646658" y="55.648672" angle="39.047727" speed="1.386713" pos="5.393877" edge="153338051" slope="0.000000"/>
+        <person id="85" x="12.468135" y="55.655675" angle="84.495987" speed="0.000000" pos="0.000000" edge="213492046" slope="0.000000"/>
+        <person id="93" x="12.446170" y="55.720174" angle="-31.488192" speed="0.000000" pos="0.000000" edge="215583250#1" slope="0.000000"/>
+        <person id="57" x="12.548222" y="55.738870" angle="-54.905441" speed="1.114221" pos="2.302237" edge="218726953#0" slope="0.000000"/>
+        <person id="6" x="12.503426" y="55.678370" angle="98.769062" speed="1.151303" pos="5.075535" edge="220270796#0" slope="0.000000"/>
+        <person id="89" x="12.461333" y="55.693863" angle="23.395143" speed="0.000000" pos="0.000000" edge="237115324#33" slope="0.000000"/>
+        <person id="39" x="12.538652" y="55.700690" angle="-133.546105" speed="1.314357" pos="7.386948" edge="237344069#1" slope="0.000000"/>
+        <person id="55" x="12.547179" y="55.685404" angle="-114.882839" speed="1.348909" pos="2.476491" edge="237352565#3" slope="0.000000"/>
+        <person id="87" x="12.544216" y="55.667561" angle="64.833004" speed="0.000000" pos="0.000000" edge="24034#0" slope="0.000000"/>
+        <person id="91" x="12.472804" y="55.628906" angle="-167.334758" speed="0.000000" pos="0.000000" edge="24580095" slope="0.000000"/>
+        <person id="81" x="12.503146" y="55.701137" angle="70.595645" speed="0.000000" pos="0.000000" edge="24980753#2" slope="0.000000"/>
+        <person id="51" x="12.541144" y="55.663508" angle="96.486202" speed="1.373100" pos="2.728814" edge="255403866" slope="0.000000"/>
+        <person id="2" x="12.461540" y="55.714308" angle="178.850001" speed="1.323028" pos="54.217789" edge="25935717#0" slope="0.000000"/>
+        <person id="16" x="12.540543" y="55.714774" angle="-58.630142" speed="1.371363" pos="5.216232" edge="26284017#0" slope="0.000000"/>
+        <person id="69" x="12.592077" y="55.688419" angle="-55.455415" speed="1.289199" pos="1.289199" edge="26524958" slope="0.000000"/>
+        <person id="86" x="12.447110" y="55.659063" angle="176.983805" speed="0.000000" pos="0.000000" edge="26807571#6" slope="0.000000"/>
+        <person id="64" x="12.563584" y="55.675885" angle="-135.770749" speed="1.319605" pos="1.319605" edge="27256158#11" slope="0.000000"/>
+        <person id="83" x="12.553313" y="55.681011" angle="156.576910" speed="0.000000" pos="0.000000" edge="289788569#1" slope="0.000000"/>
+        <person id="60" x="12.522485" y="55.673320" angle="-2.299799" speed="1.325631" pos="6.591334" edge="293588136" slope="0.000000"/>
+        <person id="95" x="12.629185" y="55.656738" angle="-18.075168" speed="0.000000" pos="0.000000" edge="3475058#1" slope="0.000000"/>
+        <person id="90" x="12.480973" y="55.714734" angle="68.913606" speed="0.000000" pos="0.000000" edge="36266696#18" slope="0.000000"/>
+        <person id="22" x="12.582445" y="55.670658" angle="-101.983969" speed="1.297908" pos="28.087813" edge="3643789#3" slope="0.000000"/>
+        <person id="59" x="12.530703" y="55.708716" angle="86.940784" speed="1.376916" pos="2.543097" edge="3666045#1" slope="0.000000"/>
+        <person id="100" x="12.617492" y="55.657277" angle="20.224859" speed="0.000000" pos="0.000000" edge="368453363#2" slope="0.000000"/>
+        <person id="97" x="12.570572" y="55.696032" angle="40.355447" speed="0.000000" pos="0.000000" edge="3993672#9" slope="0.000000"/>
+        <person id="29" x="12.576834" y="55.727651" angle="-102.612901" speed="1.221289" pos="33.959889" edge="57775966" slope="0.000000"/>
+        <person id="98" x="12.501097" y="55.631834" angle="-110.502664" speed="0.000000" pos="0.000000" edge="98479070#1" slope="0.000000"/>
+    </timestep>
+    <timestep time="6.00">
+        <vehicle id="0" x="12.537365" y="55.663159" angle="-12.760566" type="DEFAULT_VEHTYPE" speed="4.992315" pos="0.945612" lane=":1468044055_1_0" slope="0.000000"/>
+        <vehicle id="1" x="12.523027" y="55.704025" angle="5.126662" type="DEFAULT_VEHTYPE" speed="2.545614" pos="18.862356" lane="52178731#0_0" slope="0.000000"/>
+        <vehicle id="10" x="12.604636" y="55.723305" angle="-112.589999" type="DEFAULT_VEHTYPE" speed="8.508978" pos="23.008462" lane="8131026#4_0" slope="0.000000"/>
+        <vehicle id="100" x="12.622889" y="55.661422" angle="91.421492" type="DEFAULT_VEHTYPE" speed="2.128433" pos="7.228433" lane="237092572#8_0" slope="0.000000"/>
+        <vehicle id="101" x="12.584908" y="55.698394" angle="-160.125865" type="DEFAULT_VEHTYPE" speed="2.066127" pos="7.166127" lane="-157997444#0_0" slope="0.000000"/>
+        <vehicle id="102" x="12.544723" y="55.706656" angle="-45.916351" type="DEFAULT_VEHTYPE" speed="1.457897" pos="6.557897" lane="-38503789_0" slope="0.000000"/>
+        <vehicle id="103" x="12.596592" y="55.671392" angle="-63.131532" type="DEFAULT_VEHTYPE" speed="1.654921" pos="6.754921" lane="143330826#1_0" slope="0.000000"/>
+        <vehicle id="104" x="12.484441" y="55.661757" angle="-172.642764" type="DEFAULT_VEHTYPE" speed="1.395354" pos="6.495354" lane="-91602361#2_0" slope="0.000000"/>
+        <vehicle id="106" x="12.539976" y="55.681708" angle="-71.867954" type="DEFAULT_VEHTYPE" speed="2.119538" pos="7.219538" lane="155476387#2_0" slope="0.000000"/>
+        <vehicle id="107" x="12.623040" y="55.663457" angle="23.473520" type="DEFAULT_VEHTYPE" speed="1.540183" pos="6.640183" lane="-237365314#1_0" slope="0.000000"/>
+        <vehicle id="108" x="12.585008" y="55.641849" angle="76.171975" type="DEFAULT_VEHTYPE" speed="1.593585" pos="6.693585" lane="-140902144_0" slope="0.000000"/>
+        <vehicle id="109" x="12.592669" y="55.628655" angle="96.585444" type="DEFAULT_VEHTYPE" speed="1.703989" pos="6.803989" lane="4091864_0" slope="0.000000"/>
+        <vehicle id="110" x="12.474803" y="55.711039" angle="-23.281478" type="DEFAULT_VEHTYPE" speed="1.818126" pos="6.918126" lane="-25543979#8_0" slope="0.000000"/>
+        <vehicle id="111" x="12.439077" y="55.710080" angle="103.051335" type="DEFAULT_VEHTYPE" speed="1.651855" pos="6.751855" lane="-242313926_0" slope="0.000000"/>
+        <vehicle id="112" x="12.494482" y="55.647066" angle="37.090103" type="DEFAULT_VEHTYPE" speed="2.168964" pos="7.268964" lane="26927690#11_0" slope="0.000000"/>
+        <vehicle id="113" x="12.541734" y="55.714075" angle="32.366638" type="DEFAULT_VEHTYPE" speed="2.385514" pos="7.485514" lane="191606424#6_0" slope="0.000000"/>
+        <vehicle id="115" x="12.468617" y="55.714266" angle="-15.573515" type="DEFAULT_VEHTYPE" speed="2.421375" pos="7.521375" lane="-230553721#4_0" slope="0.000000"/>
+        <vehicle id="116" x="12.554819" y="55.658081" angle="-32.275644" type="DEFAULT_VEHTYPE" speed="1.328326" pos="6.428326" lane="197668195_0" slope="0.000000"/>
+        <vehicle id="117" x="12.626936" y="55.661260" angle="-167.495467" type="DEFAULT_VEHTYPE" speed="2.314757" pos="0.214757" lane=":1467935772_0_0" slope="0.000000"/>
+        <vehicle id="118" x="12.601567" y="55.670853" angle="-54.636977" type="DEFAULT_VEHTYPE" speed="2.316883" pos="7.416883" lane="-109096946#0_0" slope="0.000000"/>
+        <vehicle id="119" x="12.611227" y="55.640674" angle="10.572970" type="DEFAULT_VEHTYPE" speed="1.913250" pos="7.013250" lane="2058697#0_0" slope="0.000000"/>
+        <vehicle id="12" x="12.506707" y="55.732154" angle="-133.699923" type="DEFAULT_VEHTYPE" speed="10.096270" pos="37.405652" lane="22999401#3_0" slope="0.000000"/>
+        <vehicle id="122" x="12.495455" y="55.668820" angle="-115.123579" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="205970484#1_0" slope="0.000000"/>
+        <vehicle id="124" x="12.572712" y="55.723557" angle="177.669759" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25752402#3_0" slope="0.000000"/>
+        <vehicle id="126" x="12.551105" y="55.683609" angle="-114.527198" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="150894939_0" slope="0.000000"/>
+        <vehicle id="127" x="12.543825" y="55.669088" angle="111.874009" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-143849184#2_0" slope="0.000000"/>
+        <vehicle id="129" x="12.453174" y="55.653518" angle="58.662201" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="69250687#4_0" slope="0.000000"/>
+        <vehicle id="13" x="12.487715" y="55.684580" angle="108.822628" type="DEFAULT_VEHTYPE" speed="9.571234" pos="16.498649" lane="2860760#6_0" slope="0.000000"/>
+        <vehicle id="130" x="12.441108" y="55.721767" angle="161.237012" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="344068025_0" slope="0.000000"/>
+        <vehicle id="131" x="12.572849" y="55.723460" angle="93.707332" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-3993630#3_0" slope="0.000000"/>
+        <vehicle id="133" x="12.594277" y="55.636049" angle="55.092884" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="4211473#1_0" slope="0.000000"/>
+        <vehicle id="134" x="12.556086" y="55.679270" angle="170.445288" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="150917902_0" slope="0.000000"/>
+        <vehicle id="136" x="12.510888" y="55.656941" angle="25.513870" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="233980795#0_0" slope="0.000000"/>
+        <vehicle id="137" x="12.523168" y="55.685106" angle="155.881372" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="-145799925#0_0" slope="0.000000"/>
+        <vehicle id="138" x="12.473514" y="55.627458" angle="-166.943242" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="25884600_0" slope="0.000000"/>
+        <vehicle id="139" x="12.521510" y="55.667869" angle="56.449338" type="DEFAULT_VEHTYPE" speed="0.000000" pos="5.100000" lane="242988575_0" slope="0.000000"/>
+        <vehicle id="14" x="12.592419" y="55.666654" angle="-24.789123" type="DEFAULT_VEHTYPE" speed="4.957635" pos="24.689650" lane="-148973670_0" slope="0.000000"/>
+        <vehicle id="15" x="12.623870" y="55.642238" angle="105.518434" type="DEFAULT_VEHTYPE" speed="2.165574" pos="15.294423" lane="294715528#0_0" slope="0.000000"/>
+        <vehicle id="17" x="12.526227" y="55.684901" angle="-24.187782" type="DEFAULT_VEHTYPE" speed="9.354019" pos="24.006930" lane="2954571#4_0" slope="0.000000"/>
+        <vehicle id="18" x="12.578990" y="55.676742" angle="121.197151" type="DEFAULT_VEHTYPE" speed="7.705208" pos="30.730700" lane="43129906#2_0" slope="0.000000"/>
+        <vehicle id="19" x="12.530468" y="55.682994" angle="66.237017" type="DEFAULT_VEHTYPE" speed="9.186896" pos="9.086991" lane=":8210390_6_0" slope="0.000000"/>
+        <vehicle id="2" x="12.548053" y="55.737410" angle="88.469561" type="DEFAULT_VEHTYPE" speed="4.193425" pos="24.748853" lane="199311371_0" slope="0.000000"/>
+        <vehicle id="21" x="12.551940" y="55.717235" angle="74.857355" type="DEFAULT_VEHTYPE" speed="2.285938" pos="14.468506" lane="4314720#1_0" slope="0.000000"/>
+        <vehicle id="22" x="12.514789" y="55.639051" angle="112.924450" type="DEFAULT_VEHTYPE" speed="2.120909" pos="14.245770" lane="25928905#1_0" slope="0.000000"/>
+        <vehicle id="23" x="12.533940" y="55.643692" angle="139.856207" type="DEFAULT_VEHTYPE" speed="9.924829" pos="38.662131" lane="25916650_0" slope="0.000000"/>
+        <vehicle id="24" x="12.549735" y="55.679705" angle="-21.689519" type="DEFAULT_VEHTYPE" speed="4.940950" pos="5.625629" lane="150915683#1_0" slope="0.000000"/>
+        <vehicle id="25" x="12.442056" y="55.682349" angle="108.356662" type="DEFAULT_VEHTYPE" speed="10.365900" pos="1.583779" lane="-26154980#12_0" slope="0.000000"/>
+        <vehicle id="26" x="12.509609" y="55.684965" angle="-16.134798" type="DEFAULT_VEHTYPE" speed="5.281904" pos="3.367534" lane="-152244446_0" slope="0.000000"/>
+        <vehicle id="27" x="12.459040" y="55.724047" angle="-86.171421" type="DEFAULT_VEHTYPE" speed="9.783042" pos="37.047870" lane="25966829#2_0" slope="0.000000"/>
+        <vehicle id="28" x="12.558354" y="55.693557" angle="174.251532" type="DEFAULT_VEHTYPE" speed="8.623052" pos="15.705682" lane="1820412#0_0" slope="0.000000"/>
+        <vehicle id="29" x="12.489405" y="55.677561" angle="110.359773" type="DEFAULT_VEHTYPE" speed="9.364296" pos="3.608733" lane="-105577056#6_0" slope="0.000000"/>
+        <vehicle id="3" x="12.588398" y="55.632176" angle="173.664623" type="DEFAULT_VEHTYPE" speed="1.529359" pos="15.605919" lane="92967917_0" slope="0.000000"/>
+        <vehicle id="30" x="12.516902" y="55.682573" angle="-107.530922" type="DEFAULT_VEHTYPE" speed="4.603364" pos="25.727384" lane="148233539_0" slope="0.000000"/>
+        <vehicle id="32" x="12.506012" y="55.739947" angle="168.164272" type="DEFAULT_VEHTYPE" speed="10.871428" pos="38.827887" lane="11987003#2_0" slope="0.000000"/>
+        <vehicle id="33" x="12.573627" y="55.697567" angle="-47.304987" type="DEFAULT_VEHTYPE" speed="7.780817" pos="10.209129" lane="334300303#3_0" slope="0.000000"/>
+        <vehicle id="34" x="12.653072" y="55.634036" angle="-154.024876" type="DEFAULT_VEHTYPE" speed="8.001355" pos="29.646668" lane="210556034#1_0" slope="0.000000"/>
+        <vehicle id="35" x="12.464748" y="55.714336" angle="-126.867310" type="DEFAULT_VEHTYPE" speed="5.035778" pos="26.205682" lane="227916945#6_0" slope="0.000000"/>
+        <vehicle id="36" x="12.442697" y="55.662432" angle="-92.827630" type="DEFAULT_VEHTYPE" speed="9.709434" pos="8.403681" lane="-26807555#1_0" slope="0.000000"/>
+        <vehicle id="37" x="12.539227" y="55.658470" angle="-18.582653" type="DEFAULT_VEHTYPE" speed="8.723662" pos="0.577894" lane=":8087205_2_0" slope="0.000000"/>
+        <vehicle id="38" x="12.575903" y="55.670828" angle="-129.592341" type="DEFAULT_VEHTYPE" speed="9.338729" pos="6.814283" lane=":1446941376_4_0" slope="0.000000"/>
+        <vehicle id="39" x="12.546857" y="55.677874" angle="-64.162513" type="DEFAULT_VEHTYPE" speed="6.391662" pos="1.068367" lane=":1640190050_1_0" slope="0.000000"/>
+        <vehicle id="4" x="12.501347" y="55.715827" angle="-148.436830" type="DEFAULT_VEHTYPE" speed="8.548107" pos="29.855880" lane="119507348#1_0" slope="0.000000"/>
+        <vehicle id="40" x="12.543342" y="55.684241" angle="-113.056513" type="DEFAULT_VEHTYPE" speed="7.311795" pos="2.531334" lane=":257936300_0_0" slope="0.000000"/>
+        <vehicle id="41" x="12.530613" y="55.646461" angle="65.698685" type="DEFAULT_VEHTYPE" speed="4.827931" pos="20.213954" lane="-128468662_0" slope="0.000000"/>
+        <vehicle id="42" x="12.574779" y="55.632330" angle="-14.665643" type="DEFAULT_VEHTYPE" speed="8.447104" pos="26.154387" lane="-147476448#3_0" slope="0.000000"/>
+        <vehicle id="43" x="12.532699" y="55.668096" angle="-162.537891" type="DEFAULT_VEHTYPE" speed="4.329292" pos="8.707244" lane="-150090925#1_0" slope="0.000000"/>
+        <vehicle id="44" x="12.451092" y="55.662611" angle="85.952230" type="DEFAULT_VEHTYPE" speed="7.182641" pos="22.533544" lane="118548402#4_0" slope="0.000000"/>
+        <vehicle id="45" x="12.546957" y="55.694252" angle="95.700282" type="DEFAULT_VEHTYPE" speed="4.898198" pos="20.997022" lane="115331054#0_0" slope="0.000000"/>
+        <vehicle id="47" x="12.543061" y="55.684025" angle="-32.707783" type="DEFAULT_VEHTYPE" speed="7.133126" pos="22.455910" lane="23803819#0_0" slope="0.000000"/>
+        <vehicle id="48" x="12.551728" y="55.674836" angle="67.181498" type="DEFAULT_VEHTYPE" speed="4.282157" pos="21.753569" lane="-151152175#3_0" slope="0.000000"/>
+        <vehicle id="49" x="12.505391" y="55.679241" angle="-19.447684" type="DEFAULT_VEHTYPE" speed="6.702867" pos="20.967178" lane="-154348710#0_0" slope="0.000000"/>
+        <vehicle id="5" x="12.562801" y="55.660573" angle="126.851668" type="DEFAULT_VEHTYPE" speed="5.376963" pos="5.168574" lane=":1615506415_2_0" slope="0.000000"/>
+        <vehicle id="50" x="12.500832" y="55.743728" angle="-85.401928" type="DEFAULT_VEHTYPE" speed="8.459931" pos="12.201542" lane="237352556#16_0" slope="0.000000"/>
+        <vehicle id="51" x="12.604590" y="55.648332" angle="-168.637980" type="DEFAULT_VEHTYPE" speed="7.944949" pos="25.677946" lane="-8122614#8_0" slope="0.000000"/>
+        <vehicle id="53" x="12.623860" y="55.637939" angle="15.995259" type="DEFAULT_VEHTYPE" speed="8.217588" pos="23.939588" lane="-4230797_0" slope="0.000000"/>
+        <vehicle id="54" x="12.569487" y="55.702283" angle="138.427074" type="DEFAULT_VEHTYPE" speed="4.713495" pos="8.133053" lane="4204572#3_0" slope="0.000000"/>
+        <vehicle id="55" x="12.504484" y="55.660759" angle="12.067506" type="DEFAULT_VEHTYPE" speed="2.234577" pos="12.326751" lane="94089737#0_0" slope="0.000000"/>
+        <vehicle id="56" x="12.454550" y="55.682311" angle="67.515017" type="DEFAULT_VEHTYPE" speed="5.170078" pos="4.001698" lane=":3579174403_3_0" slope="0.000000"/>
+        <vehicle id="58" x="12.526509" y="55.729447" angle="11.280254" type="DEFAULT_VEHTYPE" speed="5.180368" pos="20.916508" lane="360241153_0" slope="0.000000"/>
+        <vehicle id="59" x="12.473882" y="55.664574" angle="169.788286" type="DEFAULT_VEHTYPE" speed="8.467206" pos="4.126811" lane="155511409#22_0" slope="0.000000"/>
+        <vehicle id="60" x="12.538630" y="55.743280" angle="41.027504" type="DEFAULT_VEHTYPE" speed="5.502875" pos="9.004186" lane=":25614559_6_0" slope="0.000000"/>
+        <vehicle id="61" x="12.588054" y="55.710152" angle="-165.918032" type="DEFAULT_VEHTYPE" speed="4.649281" pos="17.175718" lane="241592084#0_0" slope="0.000000"/>
+        <vehicle id="62" x="12.595447" y="55.668469" angle="31.672120" type="DEFAULT_VEHTYPE" speed="0.499606" pos="7.956197" lane="357118527_0" slope="0.000000"/>
+        <vehicle id="63" x="12.551795" y="55.645550" angle="41.525487" type="DEFAULT_VEHTYPE" speed="5.292622" pos="15.949997" lane="25684411_0" slope="0.000000"/>
+        <vehicle id="64" x="12.527459" y="55.645980" angle="-172.555638" type="DEFAULT_VEHTYPE" speed="4.273400" pos="15.902278" lane="25913457#1_0" slope="0.000000"/>
+        <vehicle id="65" x="12.570587" y="55.714336" angle="-172.785810" type="DEFAULT_VEHTYPE" speed="5.290501" pos="16.116579" lane="1881447#1_0" slope="0.000000"/>
+        <vehicle id="66" x="12.563263" y="55.733386" angle="62.944135" type="DEFAULT_VEHTYPE" speed="6.283287" pos="17.501480" lane="-305423409#4_0" slope="0.000000"/>
+        <vehicle id="67" x="12.446397" y="55.730863" angle="-52.334534" type="DEFAULT_VEHTYPE" speed="5.199715" pos="0.532303" lane="30526840#4_1" slope="0.000000"/>
+        <vehicle id="68" x="12.555666" y="55.681411" angle="-122.914913" type="DEFAULT_VEHTYPE" speed="4.335974" pos="13.793029" lane="150893279_0" slope="0.000000"/>
+        <vehicle id="69" x="12.468769" y="55.744478" angle="-8.620311" type="DEFAULT_VEHTYPE" speed="6.937269" pos="18.921307" lane="-172369656_0" slope="0.000000"/>
+        <vehicle id="7" x="12.577515" y="55.713947" angle="-2.946203" type="DEFAULT_VEHTYPE" speed="9.960601" pos="12.904236" lane="30473724#0_0" slope="0.000000"/>
+        <vehicle id="70" x="12.515315" y="55.740188" angle="-98.099577" type="DEFAULT_VEHTYPE" speed="6.248400" pos="17.066549" lane="-22987568#2_0" slope="0.000000"/>
+        <vehicle id="72" x="12.643528" y="55.635157" angle="-162.047411" type="DEFAULT_VEHTYPE" speed="4.361864" pos="14.534115" lane="-4374791_0" slope="0.000000"/>
+        <vehicle id="73" x="12.521544" y="55.711006" angle="-82.560050" type="DEFAULT_VEHTYPE" speed="4.382378" pos="15.226916" lane="328522072_0" slope="0.000000"/>
+        <vehicle id="74" x="12.542922" y="55.685729" angle="-22.069859" type="DEFAULT_VEHTYPE" speed="4.409865" pos="4.493445" lane="148756803#1_0" slope="0.000000"/>
+        <vehicle id="75" x="12.481135" y="55.740389" angle="-104.387920" type="DEFAULT_VEHTYPE" speed="5.852542" pos="0.721889" lane="-30476615#9_0" slope="0.000000"/>
+        <vehicle id="76" x="12.548160" y="55.725265" angle="155.917255" type="DEFAULT_VEHTYPE" speed="6.473258" pos="18.039152" lane="-48524881#1_1" slope="0.000000"/>
+        <vehicle id="8" x="12.538427" y="55.658634" angle="-91.445700" type="DEFAULT_VEHTYPE" speed="10.492626" pos="36.663852" lane="3547223#2_0" slope="0.000000"/>
+        <vehicle id="80" x="12.474739" y="55.724402" angle="134.281951" type="DEFAULT_VEHTYPE" speed="4.305789" pos="11.241210" lane="167040347_0" slope="0.000000"/>
+        <vehicle id="81" x="12.594360" y="55.628622" angle="99.791293" type="DEFAULT_VEHTYPE" speed="4.563394" pos="11.713434" lane="-28104715#2_0" slope="0.000000"/>
+        <vehicle id="82" x="12.480517" y="55.692804" angle="-172.238736" type="DEFAULT_VEHTYPE" speed="4.867354" pos="12.266222" lane="215950313#2_0" slope="0.000000"/>
+        <vehicle id="83" x="12.567165" y="55.645103" angle="-154.570914" type="DEFAULT_VEHTYPE" speed="4.105171" pos="11.171066" lane="210609842#1_0" slope="0.000000"/>
+        <vehicle id="84" x="12.549327" y="55.738085" angle="-171.741767" type="DEFAULT_VEHTYPE" speed="3.737162" pos="10.996688" lane="90992071_0" slope="0.000000"/>
+        <vehicle id="85" x="12.531253" y="55.691006" angle="-29.685780" type="DEFAULT_VEHTYPE" speed="2.498956" pos="9.621595" lane="150332982#0_0" slope="0.000000"/>
+        <vehicle id="86" x="12.497387" y="55.670617" angle="-166.349030" type="DEFAULT_VEHTYPE" speed="4.789873" pos="0.722377" lane=":1647231939_6_0" slope="0.000000"/>
+        <vehicle id="87" x="12.509837" y="55.661281" angle="-85.650024" type="DEFAULT_VEHTYPE" speed="3.508569" pos="10.079320" lane="87398581#7_0" slope="0.000000"/>
+        <vehicle id="88" x="12.604567" y="55.662082" angle="60.650232" type="DEFAULT_VEHTYPE" speed="4.057609" pos="11.356650" lane="1707815#2_0" slope="0.000000"/>
+        <vehicle id="89" x="12.521912" y="55.651588" angle="-177.797539" type="DEFAULT_VEHTYPE" speed="3.895100" pos="10.315358" lane="-3635841#4_0" slope="0.000000"/>
+        <vehicle id="9" x="12.529360" y="55.678414" angle="-16.268218" type="DEFAULT_VEHTYPE" speed="4.573153" pos="1.830832" lane=":929287643_0_0" slope="0.000000"/>
+        <vehicle id="90" x="12.498857" y="55.632017" angle="-9.903307" type="DEFAULT_VEHTYPE" speed="3.065326" pos="9.751005" lane="-25808568#1_0" slope="0.000000"/>
+        <vehicle id="92" x="12.621638" y="55.661508" angle="163.717167" type="DEFAULT_VEHTYPE" speed="3.725409" pos="10.300970" lane="4231204#0_0" slope="0.000000"/>
+        <vehicle id="93" x="12.629231" y="55.660857" angle="152.377370" type="DEFAULT_VEHTYPE" speed="3.696258" pos="11.143583" lane="-148886130_0" slope="0.000000"/>
+        <vehicle id="94" x="12.602331" y="55.682240" angle="-27.414680" type="DEFAULT_VEHTYPE" speed="4.729271" pos="3.836407" lane="-41833857_0" slope="0.000000"/>
+        <vehicle id="95" x="12.533396" y="55.691936" angle="60.769259" type="DEFAULT_VEHTYPE" speed="2.877065" pos="4.426747" lane=":1662629707_7_0" slope="0.000000"/>
+        <vehicle id="96" x="12.535848" y="55.644253" angle="145.253493" type="DEFAULT_VEHTYPE" speed="4.330428" pos="3.000428" lane=":282716019_4_0" slope="0.000000"/>
+        <vehicle id="97" x="12.597162" y="55.696364" angle="-9.973077" type="DEFAULT_VEHTYPE" speed="4.197537" pos="11.379156" lane="359591670_0" slope="0.000000"/>
+        <vehicle id="98" x="12.538800" y="55.681681" angle="100.682809" type="DEFAULT_VEHTYPE" speed="1.553371" pos="9.042497" lane="144134509#0_0" slope="0.000000"/>
+        <vehicle id="99" x="12.517069" y="55.743031" angle="112.039742" type="DEFAULT_VEHTYPE" speed="3.385804" pos="4.448007" lane=":3658061650_6_0" slope="0.000000"/>
+        <person id="70" x="12.539393" y="55.725190" angle="-65.684080" speed="1.208596" pos="3.987354" edge=":1054568832_0" slope="0.000000"/>
+        <person id="8" x="12.505177" y="55.672269" angle="85.479608" speed="1.379872" pos="2.529939" edge=":1262273541_1" slope="0.000000"/>
+        <person id="73" x="12.593062" y="55.651903" angle="165.873313" speed="1.382409" pos="3.601214" edge=":1573491374_1" slope="0.000000"/>
+        <person id="23" x="12.557081" y="55.659514" angle="175.953082" speed="1.352785" pos="4.296345" edge=":1574030619_1" slope="0.000000"/>
+        <person id="52" x="12.597685" y="55.656119" angle="108.313816" speed="1.352028" pos="0.990995" edge=":1579437178_3" slope="0.000000"/>
+        <person id="94" x="12.506925" y="55.686207" angle="15.328629" speed="1.188096" pos="8.381904" edge=":1613554146_0" slope="0.000000"/>
+        <person id="41" x="12.582728" y="55.680468" angle="-108.799885" speed="1.189941" pos="1.898543" edge=":1617144189_0" slope="0.000000"/>
+        <person id="46" x="12.537945" y="55.682678" angle="-121.006026" speed="1.185165" pos="3.470363" edge=":1621365141_0" slope="0.000000"/>
+        <person id="96" x="12.532326" y="55.669926" angle="175.196514" speed="1.223572" pos="1.023572" edge=":1630078133_2" slope="0.000000"/>
+        <person id="9" x="12.439127" y="55.742340" angle="48.265588" speed="1.179147" pos="4.743622" edge=":1783000027_1" slope="0.000000"/>
+        <person id="61" x="12.596238" y="55.654351" angle="-46.414423" speed="1.113300" pos="2.722401" edge=":1802532421_1" slope="0.000000"/>
+        <person id="71" x="12.598219" y="55.653595" angle="-104.663626" speed="1.181381" pos="3.662943" edge=":1802540378_1" slope="0.000000"/>
+        <person id="40" x="12.473929" y="55.681817" angle="101.748342" speed="1.247425" pos="2.593354" edge=":20943313_5" slope="0.000000"/>
+        <person id="85" x="12.468156" y="55.655676" angle="92.619549" speed="1.121262" pos="4.248738" edge=":2231769678_0" slope="0.000000"/>
+        <person id="6" x="12.503445" y="55.678372" angle="98.718066" speed="1.195879" pos="0.561414" edge=":2293994517_1" slope="0.000000"/>
+        <person id="20" x="12.441386" y="55.722653" angle="-150.727708" speed="1.333739" pos="5.920232" edge=":2314421486_1" slope="0.000000"/>
+        <person id="3" x="12.495967" y="55.739331" angle="105.720461" speed="1.257989" pos="2.445453" edge=":247948370_0" slope="0.000000"/>
+        <person id="50" x="12.555120" y="55.718683" angle="78.577103" speed="1.285432" pos="6.020664" edge=":26211615_1" slope="0.000000"/>
+        <person id="36" x="12.536215" y="55.717122" angle="-102.094757" speed="1.191677" pos="0.556738" edge=":26490156_7" slope="0.000000"/>
+        <person id="26" x="12.533176" y="55.722941" angle="84.783635" speed="1.213417" pos="0.266233" edge=":26506928_6" slope="0.000000"/>
+        <person id="91" x="12.472798" y="55.628917" angle="-164.630060" speed="1.253991" pos="5.376009" edge=":267217353_6" slope="0.000000"/>
+        <person id="75" x="12.554338" y="55.699070" angle="-36.792784" speed="1.322749" pos="7.585645" edge=":269598219_1" slope="0.000000"/>
+        <person id="79" x="12.496529" y="55.702096" angle="-41.212426" speed="1.349583" pos="1.970906" edge=":271649817_7" slope="0.000000"/>
+        <person id="66" x="12.488814" y="55.703642" angle="-93.544766" speed="1.228038" pos="2.683262" edge=":271651546_6" slope="0.000000"/>
+        <person id="67" x="12.458003" y="55.674879" angle="67.011283" speed="1.385476" pos="1.722375" edge=":272492186_0" slope="0.000000"/>
+        <person id="42" x="12.468670" y="55.631646" angle="-157.297158" speed="1.193365" pos="5.949596" edge=":274878694_7" slope="0.000000"/>
+        <person id="82" x="12.551556" y="55.659894" angle="-142.125016" speed="1.360935" pos="0.649065" edge=":279927989_8" slope="0.000000"/>
+        <person id="90" x="12.480987" y="55.714729" angle="59.237280" speed="1.235554" pos="9.224446" edge=":282660377_4" slope="0.000000"/>
+        <person id="24" x="12.566578" y="55.726171" angle="-12.398385" speed="1.175593" pos="1.260572" edge=":285487542_1" slope="0.000000"/>
+        <person id="44" x="12.444983" y="55.659681" angle="121.108809" speed="1.116401" pos="1.754255" edge=":286913973_0" slope="0.000000"/>
+        <person id="32" x="12.549377" y="55.690145" angle="145.479135" speed="1.276959" pos="4.383119" edge=":297902614_0" slope="0.000000"/>
+        <person id="47" x="12.492121" y="55.639729" angle="101.273623" speed="1.349127" pos="2.271703" edge=":2983016213_0" slope="0.000000"/>
+        <person id="33" x="12.508927" y="55.711566" angle="100.978883" speed="1.262918" pos="4.313697" edge=":30451764_1" slope="0.000000"/>
+        <person id="63" x="12.503507" y="55.685133" angle="-21.501434" speed="1.382340" pos="2.461034" edge=":3198567188_0" slope="0.000000"/>
+        <person id="86" x="12.447111" y="55.659074" angle="177.044255" speed="1.242582" pos="8.257418" edge=":3605558312_1" slope="0.000000"/>
+        <person id="1" x="12.614586" y="55.646822" angle="-78.726277" speed="1.157602" pos="6.154243" edge=":3605963242_0" slope="0.000000"/>
+        <person id="100" x="12.617500" y="55.657266" angle="21.209226" speed="1.344569" pos="1.144569" edge=":3722897496_3" slope="0.000000"/>
+        <person id="35" x="12.636296" y="55.640335" angle="-74.411247" speed="1.220892" pos="4.591346" edge=":7427919_7" slope="0.000000"/>
+        <person id="49" x="12.495264" y="55.680788" angle="12.854117" speed="1.313925" pos="2.294620" edge=":8078418_4" slope="0.000000"/>
+        <person id="11" x="12.500212" y="55.650592" angle="-165.037845" speed="1.327754" pos="4.032598" edge=":93029030_2" slope="0.000000"/>
+        <person id="19" x="12.470141" y="55.717821" angle="-13.956208" speed="1.246940" pos="6.274004" edge="-113112644#1" slope="0.000000"/>
+        <person id="112" x="12.576897" y="55.739684" angle="-25.148152" speed="0.000000" pos="0.000000" edge="-125514712#7" slope="0.000000"/>
+        <person id="74" x="12.626678" y="55.660948" angle="171.537109" speed="1.262794" pos="2.521550" edge="-133347854#0" slope="0.000000"/>
+        <person id="21" x="12.626822" y="55.658741" angle="19.669291" speed="1.154851" pos="5.045360" edge="-148886116#0" slope="0.000000"/>
+        <person id="54" x="12.582979" y="55.700727" angle="-68.556096" speed="1.313140" pos="3.688672" edge="-174675649#0" slope="0.000000"/>
+        <person id="17" x="12.565463" y="55.713569" angle="-70.577081" speed="1.336734" pos="6.403871" edge="-1757742#5" slope="0.000000"/>
+        <person id="119" x="12.619122" y="55.644822" angle="-162.286070" speed="0.000000" pos="0.000000" edge="-1880444#4" slope="0.000000"/>
+        <person id="48" x="12.625230" y="55.643653" angle="-71.728500" speed="1.233087" pos="3.595750" edge="-1881046#2" slope="0.000000"/>
+        <person id="120" x="12.585528" y="55.639103" angle="168.093347" speed="0.000000" pos="0.000000" edge="-23384674#4" slope="0.000000"/>
+        <person id="4" x="12.597458" y="55.667491" angle="26.672686" speed="1.211104" pos="6.023841" edge="-237100946#5" slope="0.000000"/>
+        <person id="53" x="12.602766" y="55.653936" angle="149.281096" speed="1.290321" pos="3.800875" edge="-237111837#9" slope="0.000000"/>
+        <person id="89" x="12.461357" y="55.693765" angle="18.084171" speed="1.329760" pos="1.329760" edge="-237115324#32" slope="0.000000"/>
+        <person id="31" x="12.472897" y="55.711714" angle="65.957361" speed="1.196933" pos="4.678384" edge="-237211374#3" slope="0.000000"/>
+        <person id="102" x="12.498553" y="55.744098" angle="-26.666411" speed="0.000000" pos="0.000000" edge="-23916463#6" slope="0.000000"/>
+        <person id="27" x="12.497767" y="55.743061" angle="-13.726826" speed="1.185116" pos="30.290375" edge="-23916467#2" slope="0.000000"/>
+        <person id="30" x="12.488810" y="55.660636" angle="85.127642" speed="1.350626" pos="5.238841" edge="-24526887#0" slope="0.000000"/>
+        <person id="81" x="12.503306" y="55.701084" angle="71.322484" speed="1.116051" pos="1.116051" edge="-24980753#1" slope="0.000000"/>
+        <person id="118" x="12.522536" y="55.680595" angle="-102.275786" speed="0.000000" pos="0.000000" edge="-2522303" slope="0.000000"/>
+        <person id="13" x="12.471530" y="55.710656" angle="122.257255" speed="1.263831" pos="15.716066" edge="-25543958#10" slope="0.000000"/>
+        <person id="101" x="12.464658" y="55.740677" angle="179.430245" speed="0.000000" pos="0.000000" edge="-25793187" slope="0.000000"/>
+        <person id="5" x="12.471759" y="55.713657" angle="-21.648843" speed="1.228541" pos="6.142213" edge="-25911395#3" slope="0.000000"/>
+        <person id="78" x="12.501057" y="55.727400" angle="-11.151919" speed="1.191863" pos="2.315717" edge="-26325632#1" slope="0.000000"/>
+        <person id="106" x="12.521395" y="55.684515" angle="157.080362" speed="0.000000" pos="0.000000" edge="-27275324" slope="0.000000"/>
+        <person id="10" x="12.552915" y="55.680259" angle="-113.884622" speed="1.339621" pos="6.564884" edge="-29654#3" slope="0.000000"/>
+        <person id="77" x="12.547472" y="55.737318" angle="64.454456" speed="1.161243" pos="2.290315" edge="-296557772#2" slope="0.000000"/>
+        <person id="28" x="12.555648" y="55.677534" angle="-102.747159" speed="1.145487" pos="4.876983" edge="-3735#3" slope="0.000000"/>
+        <person id="14" x="12.485215" y="55.707704" angle="53.609147" speed="1.368933" pos="6.063245" edge="-38328779#14" slope="0.000000"/>
+        <person id="38" x="12.500171" y="55.692539" angle="28.651025" speed="1.353264" pos="4.995519" edge="-3992560#2" slope="0.000000"/>
+        <person id="68" x="12.559624" y="55.723569" angle="52.275005" speed="1.201917" pos="2.321133" edge="-3993652#1" slope="0.000000"/>
+        <person id="45" x="12.548731" y="55.704711" angle="-49.523912" speed="1.134662" pos="3.616005" edge="-4212133#1" slope="0.000000"/>
+        <person id="43" x="12.577382" y="55.708373" angle="-87.931526" speed="1.122175" pos="3.687181" edge="-4320526#1" slope="0.000000"/>
+        <person id="0" x="12.534767" y="55.731780" angle="-84.046822" speed="1.161893" pos="7.247616" edge="-4360541#6" slope="0.000000"/>
+        <person id="18" x="12.531283" y="55.689225" angle="-29.102060" speed="1.193609" pos="6.224313" edge="-8122584#0" slope="0.000000"/>
+        <person id="25" x="12.586453" y="55.707990" angle="-82.582457" speed="1.126105" pos="4.850858" edge="-83348641#0" slope="0.000000"/>
+        <person id="12" x="12.545346" y="55.704733" angle="-142.518038" speed="0.229318" pos="4.400618" edge="-83872621#0" slope="0.000000"/>
+        <person id="76" x="12.461035" y="55.702840" angle="-20.481386" speed="1.217247" pos="2.584355" edge="103071570#0" slope="0.000000"/>
+        <person id="7" x="12.608444" y="55.642661" angle="-81.143838" speed="1.140973" pos="12.133523" edge="108231456#4" slope="0.000000"/>
+        <person id="56" x="12.497846" y="55.685528" angle="38.810778" speed="1.147695" pos="3.564670" edge="113551030" slope="0.000000"/>
+        <person id="80" x="12.443032" y="55.658806" angle="32.660913" speed="1.162045" pos="2.454012" edge="115559551#0" slope="0.000000"/>
+        <person id="65" x="12.516931" y="55.684542" angle="-21.313457" speed="1.236745" pos="13.671740" edge="143711994#2" slope="0.000000"/>
+        <person id="95" x="12.629076" y="55.656738" angle="-117.349876" speed="1.340576" pos="1.340576" edge="148886115#2" slope="0.000000"/>
+        <person id="83" x="12.553373" y="55.681022" angle="66.815186" speed="1.237061" pos="1.237061" edge="150878864#1" slope="0.000000"/>
+        <person id="15" x="12.646671" y="55.648663" angle="39.047727" speed="1.284191" pos="6.678069" edge="153338051" slope="0.000000"/>
+        <person id="111" x="12.584904" y="55.679752" angle="-177.105198" speed="0.000000" pos="0.000000" edge="165487107#1" slope="0.000000"/>
+        <person id="107" x="12.556407" y="55.707839" angle="15.439934" speed="0.000000" pos="0.000000" edge="167986350#0" slope="0.000000"/>
+        <person id="109" x="12.475505" y="55.722255" angle="-172.913232" speed="0.000000" pos="0.000000" edge="208145236#4" slope="0.000000"/>
+        <person id="93" x="12.446161" y="55.720165" angle="-31.488192" speed="1.136352" pos="1.136352" edge="215583250#1" slope="0.000000"/>
+        <person id="57" x="12.548204" y="55.738862" angle="-54.905441" speed="1.380313" pos="3.682550" edge="218726953#0" slope="0.000000"/>
+        <person id="87" x="12.544227" y="55.667494" angle="-17.326758" speed="1.330023" pos="1.330023" edge="237108781#0" slope="0.000000"/>
+        <person id="39" x="12.538638" y="55.700697" angle="-133.546105" speed="1.194768" pos="6.192179" edge="237344069#1" slope="0.000000"/>
+        <person id="55" x="12.547160" y="55.685409" angle="-114.882839" speed="1.332220" pos="3.808711" edge="237352565#3" slope="0.000000"/>
+        <person id="117" x="12.504874" y="55.650984" angle="-11.418502" speed="0.000000" pos="0.000000" edge="25303770" slope="0.000000"/>
+        <person id="110" x="12.470467" y="55.735501" angle="87.072924" speed="0.000000" pos="0.000000" edge="25419488#11" slope="0.000000"/>
+        <person id="51" x="12.541161" y="55.663509" angle="96.486202" speed="1.116155" pos="3.844969" edge="255403866" slope="0.000000"/>
+        <person id="2" x="12.461540" y="55.714320" angle="178.850001" speed="1.323094" pos="52.894696" edge="25935717#0" slope="0.000000"/>
+        <person id="16" x="12.540525" y="55.714767" angle="-58.630142" speed="1.345465" pos="6.561697" edge="26284017#0" slope="0.000000"/>
+        <person id="69" x="12.592062" y="55.688413" angle="-55.455415" speed="1.159175" pos="2.448373" edge="26524958" slope="0.000000"/>
+        <person id="64" x="12.563570" y="55.675892" angle="-135.770749" speed="1.204336" pos="2.523941" edge="27256158#11" slope="0.000000"/>
+        <person id="60" x="12.522485" y="55.673310" angle="-2.299799" speed="1.180416" pos="5.410919" edge="293588136" slope="0.000000"/>
+        <person id="103" x="12.486537" y="55.731129" angle="167.344075" speed="0.000000" pos="0.000000" edge="34625346#5" slope="0.000000"/>
+        <person id="113" x="12.589263" y="55.689474" angle="15.020533" speed="0.000000" pos="0.000000" edge="360157610#1" slope="0.000000"/>
+        <person id="22" x="12.582426" y="55.670660" angle="-101.983969" speed="1.231405" pos="26.856407" edge="3643789#3" slope="0.000000"/>
+        <person id="59" x="12.530721" y="55.708716" angle="86.940784" speed="1.144960" pos="3.688058" edge="3666045#1" slope="0.000000"/>
+        <person id="97" x="12.570585" y="55.696024" angle="40.355447" speed="1.247044" pos="1.247044" edge="3993672#9" slope="0.000000"/>
+        <person id="72" x="12.558173" y="55.736249" angle="-62.741458" speed="1.218034" pos="46.873794" edge="4238218#0" slope="0.000000"/>
+        <person id="37" x="12.573990" y="55.741965" angle="-30.594282" speed="1.358616" pos="229.231317" edge="4313371" slope="0.000000"/>
+        <person id="29" x="12.576815" y="55.727653" angle="-102.612901" speed="1.198016" pos="32.761872" edge="57775966" slope="0.000000"/>
+        <person id="116" x="12.486667" y="55.679230" angle="-55.462331" speed="0.000000" pos="0.000000" edge="8125078#3" slope="0.000000"/>
+        <person id="99" x="12.503923" y="55.660801" angle="177.273689" speed="1.348021" pos="1.348021" edge="94089737#2" slope="0.000000"/>
+        <person id="98" x="12.501078" y="55.631838" angle="-110.502664" speed="1.278299" pos="1.278299" edge="98479070#1" slope="0.000000"/>
+    </timestep>
+</fcd-export>
+    
